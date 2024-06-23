@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0613.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32406130-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32406130-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32406130-NasDHSolutions.json)
+## 3.24.0623.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32406230-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32406230-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32406230-NasDHSolutions.json)
+
+- ✨: Bổ sung chức năng kết xuất chỉ định XQuang sang máy XQuang (BV Tâm Phúc). Theo mô tả [MÔ TẢ KẾT XUẤT DỮ LIỆU CHỈ ĐỊNH SANG MÁY XQUANG](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/M%C3%B4%20t%E1%BA%A3%20k%E1%BA%BFt%20xu%E1%BA%A5t%20d%E1%BB%AF%20li%E1%BB%87u%20ch%E1%BB%89%20%C4%91%E1%BB%8Bnh%20sang%20m%C3%A1y%20XQuang%20-%20BV%20T%C3%A2m%20Ph%C3%BAc%20%5BB%C3%ACnh%20Thu%E1%BA%ADn%5D.md)
+- ☑: https://github.com/dh-hos/Yeu_cau_ho_tro/issues/140
+## [v.3.24.0613.0]()
 
 - ✨: Bổ sung mẫu tự thiết kế MRI/CT.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/312
