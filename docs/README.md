@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0626.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32406261-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32406261-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32406261-NasDHSolutions.json)
+## 3.24.0704.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407040-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407040-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407040-NasDHSolutions.json)
+
+- ✨: Thực hiện bổ sung ngày thực hiện y lệnh CĐHA #21.
+- ✨: Sửa lỗi - TREO MÁY KHI LƯU KẾT QUẢ SIÊU ÂM #59.
+- ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/21
+- ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/59
+## [v.3.24.0626.1]()
 
 - 🐛: Sửa lỗi mẫu tự thiết kế Nội soi TMH không lấy được 6 hình.
 - ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/57
