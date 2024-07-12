@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0711.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407110-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407110-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407110-NasDHSolutions.json)
+## 3.24.0712.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407120-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407120-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407120-NasDHSolutions.json)
+
+- 🐛: Sửa lỗi phiếu kết quả điện tim không hiển thị được hình ảnh đã chọn.
+- ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/61
+## [v.3.24.0711.0]()
 
 - 🐛: Sửa lỗi `Sổ chẩn đoán hình ảnh` mất chức năng lập Ekipt (BV Phụ sản - `92118`).
 - ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/60
