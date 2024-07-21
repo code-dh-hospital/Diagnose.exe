@@ -5,7 +5,12 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0719.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407190-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407190-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407190-NasDHSolutions.json)
+## 3.24.0721.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407210-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407210-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407210-NasDHSolutions.json)
+
+- ✨: Bổ sung thêm mô tả dạng lưới (theo tham số ha.sudungmotabenhly = 1) đối với thực hiện CLS Thăm dò chức năng theo [Mô tả thực hiện cận lâm sàng Thăm dò chức năng `(KHO = 'CN')`](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/M%C3%B4%20t%E1%BA%A3%20th%E1%BB%B1c%20hi%E1%BB%87n%20c%E1%BA%ADn%20l%C3%A2m%20s%C3%A0ng%20Th%C4%83m%20d%C3%B2%20ch%E1%BB%A9c%20n%C4%83ng.md)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/309
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/459
+## [v.3.24.0719.0]()
 
 - ✨: Thực hiện bổ sung form trả kết quả Thăm dò chức năng theo [Mô tả thực hiện cận lâm sàng Thăm dò chức năng `(KHO = 'CN')`](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/M%C3%B4%20t%E1%BA%A3%20th%E1%BB%B1c%20hi%E1%BB%87n%20c%E1%BA%ADn%20l%C3%A2m%20s%C3%A0ng%20Th%C4%83m%20d%C3%B2%20ch%E1%BB%A9c%20n%C4%83ng.md) ![image](https://github.com/dh-hos/Mo-ta-he-thong/assets/112069710/b9668bb2-4d18-4bae-857a-3972caaffd92) và mẫu kết quả tự thiết kế ![image](https://github.com/dh-hos/Mo-ta-he-thong/assets/112069710/58ffae93-96b9-4d08-83d2-bc86e1086f23)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/309
