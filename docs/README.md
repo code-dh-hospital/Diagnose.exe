@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0721.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407210-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407210-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407210-NasDHSolutions.json)
+## 3.24.0722.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407220-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407220-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407220-NasDHSolutions.json)
+
+- 🐛: Sửa lỗi không tìm thấy cột maphim khi vào form thực hiện XQuang. ![image](https://github.com/user-attachments/assets/9ba4c178-732e-4fa3-adaa-4a1dde8d1e55)
+- ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/62
+## [v.3.24.0721.0]()
 
 - ✨: Bổ sung thêm mô tả dạng lưới (theo tham số ha.sudungmotabenhly = 1) đối với thực hiện CLS Thăm dò chức năng theo [Mô tả thực hiện cận lâm sàng Thăm dò chức năng `(KHO = 'CN')`](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/M%C3%B4%20t%E1%BA%A3%20th%E1%BB%B1c%20hi%E1%BB%87n%20c%E1%BA%ADn%20l%C3%A2m%20s%C3%A0ng%20Th%C4%83m%20d%C3%B2%20ch%E1%BB%A9c%20n%C4%83ng.md)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/309
