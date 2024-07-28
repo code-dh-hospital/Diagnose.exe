@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0722.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407220-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407220-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407220-NasDHSolutions.json)
+## 3.24.0728.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407280-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407280-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407280-NasDHSolutions.json)
+
+- ✨: Bổ sung chức năng cấu hình người thực hiện. ![image](https://github.com/user-attachments/assets/2ea15dca-8ed8-417b-b8cd-3002385e1289). 
+- ✨: Bổ sung chức năng chọn người thực hiện tại các form trả kết quả. ![image](https://github.com/user-attachments/assets/32ce337f-8acc-4cd2-9fcb-33fdea37d557)
+- ✨: Ghi nhận giá trị `chidinhcls.nguoi_thuc_hien` khi thực hiện cận lâm sàng.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/539
+## [v.3.24.0722.0]()
 
 - 🐛: Sửa lỗi không tìm thấy cột maphim khi vào form thực hiện XQuang. ![image](https://github.com/user-attachments/assets/9ba4c178-732e-4fa3-adaa-4a1dde8d1e55)
 - ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/62
