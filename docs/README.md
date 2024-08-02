@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0731.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407310-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407310-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32407310-NasDHSolutions.json)
+## 3.24.0802.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408020-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408020-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408020-NasDHSolutions.json)
+
+- 🐛: Sửa lỗi không load phim CT khi thực hiện.
+- ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/63
+## [v.3.24.0731.0]()
 
 - ✨: Bổ sung kiểm tra [thời gian thực hiện y lệnh] và [thời gian trả kết quả] theo [Mô tả Kiểm tra thời gian Thực hiện y lệnh/Trả kết quả đối với Chẩn đoán hình ảnh/Thăm dò chức năng](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/M%C3%B4%20t%E1%BA%A3%20Ki%E1%BB%83m%20tra%20th%E1%BB%9Di%20gian%20th%E1%BB%B1c%20hi%E1%BB%87n%20y%20l%E1%BB%87nh-tr%E1%BA%A3%20k%E1%BA%BFt%20qu%E1%BA%A3%20Ch%E1%BA%A9n%20%C4%91o%C3%A1n%20h%C3%ACnh%20%E1%BA%A3nh%20-%20Th%C4%83m%20d%C3%B2%20ch%E1%BB%A9c%20n%C4%83ng.md)
 ![image](https://github.com/user-attachments/assets/11231f7b-b8b5-4149-83de-cbc9c2ddd36d)
