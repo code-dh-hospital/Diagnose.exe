@@ -5,7 +5,12 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0802.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408020-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408020-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408020-NasDHSolutions.json)
+## 3.24.0804.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408040-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408040-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408040-NasDHSolutions.json)
+
+- ✨: Thay đổi kiểm tra số phút tối thiểu để trả kết quả từ lần trả kết quả gần nhất của người đọc kết quả theo loại cận lâm sàng theo tham số `ha.sophut_thuchien_toithieu` từ số sang chuỗi. ![image](https://github.com/user-attachments/assets/eb7e58ae-f9f6-4730-888f-7caf8c72b0ac)
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/62
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/59
+## [v.3.24.0802.0]()
 
 - 🐛: Sửa lỗi không load phim CT khi thực hiện.
 - ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/63
