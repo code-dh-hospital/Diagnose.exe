@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0809.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408090-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408090-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408090-NasDHSolutions.json)
+## 3.24.0814.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408140-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408140-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408140-NasDHSolutions.json)
+
+- ✨: Bổ sung tùy chọn `Xóa toàn bộ ảnh từ thiết bị capture khác sau mỗi ca được thực hiện` tại form cấu hình thực hiện cận lâm sàng.
+- ✨: Thực hiện kiểm soát tại các form thực hiện theo tùy chọn `Xóa toàn bộ ảnh từ thiết bị capture khác sau mỗi ca được thực hiện`.
+![image](https://github.com/user-attachments/assets/cb2808d4-60fc-4c92-80e7-6d0b51b6f32f)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/593
+## [v.3.24.0809.0]()
 
 - 🐛: Sửa lỗi khi tài khoản đăng nhập có quyền thực hiện (không có quyền đọc kết quả) KHÔNG có tên trong danh sách chọn nhân viên thực hiện.
 - ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/64
