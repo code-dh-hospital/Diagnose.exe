@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0829.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408290-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408290-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32408290-NasDHSolutions.json)
+## 3.24.0918.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32409180-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32409180-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32409180-NasDHSolutions.json)
+
+- 🐛: Sửa lỗi load thiếu bệnh lý đối với danh mục mô tả bệnh lý. ![image](https://github.com/user-attachments/assets/df15fab3-ffa9-45e6-bc12-8ae40cfe6b46)
+- ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/67
+## [v.3.24.0829.0]()
 
 - 🐛: Sửa lỗi không chọn được font mô tả khi sử dụng tham số `ha.sudungmotabenhly = 1`.
 - 🐛: Lưu ý: do sử dụng tham số `ha.sudungmotabenhly = 1`, nên tại phiếu tự thiết kế phải kéo lại parameter mota mới trở lại phiếu kết quả (parameter cũ hỗ trợ Rtf, nên không còn phù hợp) ![image](https://github.com/user-attachments/assets/071e32e8-f2f4-4b3f-a9f4-0acebc40ab3f)
