@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1012.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32410120-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32410120-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32410120-NasDHSolutions.json)
+## 3.24.1014.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32410140-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32410140-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FDiagnoseexe%2F32410140-NasDHSolutions.json)
+
+- 🐛: Sửa lỗi: Mất Menu Tool chỉnh định dạng font chữ khi sử dụng Mô tả bệnh lý (không chỉnh được định dạng kết luận và lời dặn). ![image](https://github.com/user-attachments/assets/7e675c9c-26f4-4f8c-8673-7cc02f4278b1)
+- ☑: https://github.com/dh-hos/dhg.hospitaldiagnose/issues/69
+## [v.3.24.1012.0]()
 
 - ✨: Bổ sung chức năng kết nối PACS (Cty Vĩnh Phát) BV Ung Bướu Cần Thơ. ![image](https://github.com/user-attachments/assets/efcd4749-23a9-4c6f-bb1c-ea2a80cd535c)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/657
