@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1103.1]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411031-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411031-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411031-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng kiểm tra thời gian khóa thực hiện (đối với nhân viên thực hiện y lệnh, bắt tương tự đối với bác sĩ trả kết quả).
+- ☑: https://github.com/dh-his/Phieu_Yeu_Cau/issues/21
+
 ## [v.3.24.1103.0]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411030-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411030-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411030-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung chức năng kiểm tra thời gian khóa thực hiện (đối với nhân viên thực hiện y lệnh, bắt tương tự đối với bác sĩ trả kết quả).
