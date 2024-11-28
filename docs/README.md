@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.24.1128.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411280-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng kiểm tra theo tham số `ha.ketluan`: Cảnh báo/Chặn nội dung kết luận rỗng khi thực hiện Chẩn đoán hình ảnh/Thăm dò chức năng.
+![image](https://github.com/user-attachments/assets/46005cb5-a344-4fb3-8bde-5a8f2138db7b)
+![image](https://github.com/user-attachments/assets/0c38eab7-d5fc-49b2-b173-9181aa65e013)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/17
+
 ## [v.3.24.1120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32411200-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi: Khi lưu kết quả phát sinh lỗi (BV Ung Bướu Cần Thơ) do lấy kết quả từ hệ thống PACS (Vĩnh Phát).
