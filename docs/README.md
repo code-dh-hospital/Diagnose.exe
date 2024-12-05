@@ -6,6 +6,26 @@
 
 #
 
+## [v.3.24.1205.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412051-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - mở khoá không xoá giờ kết thúc khám không cho thêm chi phí mới
+- ☑: https://github.com/dhhiswork/To_lap_trinh/issues/4
+
+- không hợp lệ > chặn
+![](https://i.imgur.com/10OMhGk.png)
+- hợp lệ cho phép lưu
+![](https://i.imgur.com/ZD0V7HS.png)
+
+## [v.3.24.1205.0]()
+- ✨: Yêu cầu - mở khoá không xoá giờ kết thúc khám ràng buộc giờ kết quả không được lớn hơn giờ kết thúc khám
+- ☑: https://github.com/dhhiswork/To_lap_trinh/issues/4
+
+![](https://i.imgur.com/S6NSQl7.png)
+![](https://i.imgur.com/xcB7PVx.png)
+![](https://i.imgur.com/Dt31V89.png)
+
+- Cho phép lưu nếu thời gian hợp lệ
+![](https://i.imgur.com/18lDKhL.png)
+
 ## [v.3.24.1202.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412020-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Kiểm soát thời gian thực hiện TT/PT đối với nhân viên trong EkipPT khi lưu phiếu TT/PT.
