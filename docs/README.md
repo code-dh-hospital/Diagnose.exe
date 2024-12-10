@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1210.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412100-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Form thực hiện TT/PT: Bổ sung điều kiện kiểm tra cận lâm sàng có bắt trùng thời gian thực hiện. Nếu `dmcls.trungekkip_thuchien <> 1` thì tiến hành kiểm tra trùng thời gian thực hiện của Ekip.
+- ☑: https://github.com/dhhiswork/YeuCau/issues/38
+
 ## [v.3.24.1205.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412053-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412053-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412053-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription chỉnh sửa thông tin hồ sơ thanh toán BHYT đã in phiếu thanh toán và đã mở khóa ![](https://i.imgur.com/10OMhGk.png) ![](https://i.imgur.com/ZD0V7HS.png)
 - ☑: https://github.com/dhhiswork/To_lap_trinh/issues/4
