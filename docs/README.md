@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1212.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412120-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Form lập phiếu TT/PT: Bổ sung điều kiện chỉ áp dụng đối với BHYT và loại bỏ TT/PT trùng thời gian thực hiện.
+- ☑: https://github.com/dhhiswork/YeuCau/issues/38
+
 ## [v.3.24.1210.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32412100-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Form thực hiện TT/PT: Bổ sung điều kiện kiểm tra cận lâm sàng có bắt trùng thời gian thực hiện. Nếu `dmcls.trungekkip_thuchien <> 1` thì tiến hành kiểm tra trùng thời gian thực hiện của Ekip.
