@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0123.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32501230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32501230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32501230-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng kết nối PACS (xuất thông tin chỉ định Excel) PK Phương Nam. Theo mô tả: [CHUC-NANG-RIENG/PACs-Excel-PK-Phuong-Nam.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHUC-NANG-RIENG/PACs-Excel-PK-Phuong-Nam.md)
+![](https://i.imgur.com/t726BGn.png)
+![](https://i.imgur.com/VDDiC7h.png)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/7
+
 ## [v.3.25.0113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32501130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32501130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32501130-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Thực hiện - Tích hợp vào hệ thống cấp key của HĐĐT - (dh-issue/YEUCAU/#18)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/18
