@@ -6,6 +6,37 @@
 
 #
 
+## [v.3.25.0211.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32502112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32502112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32502112-NasDHSolutions.json)</sup></sup></sub>
+- ✨: PACS - Kết nối PACS (BV TÂM PHÚC) #6
+		Cấu hình sử dụng PACS (BV Tâm Phúc)
+			TEST:
+
+			Server: 192.168.50.79
+			Data: pacs_tamphuc
+			Port: 5432
+
+			- Cấu hình tham số:
+			ip_server_pacs = http://115.78.238.215:8081
+
+			- Cấp quyền sử dụng:
+			![](https://i.imgur.com/drlC4xD.png)
+			Lưu ý: không cấp quyền sẽ không thấy được chức năng
+
+			- Gửi PACS:
+
+			![](https://i.imgur.com/vdSLpt6.png)
+
+			- Hủy gửi PACS:
+
+			![](https://i.imgur.com/zlV3Q3K.png)
+
+			- Xem kết quả từ PACS:
+
+			![](https://i.imgur.com/hu3f3tx.png)
+			![](https://i.imgur.com/hnHS9ud.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/6
+
 ## [v.3.25.0211.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32502111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32502111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32502111-NasDHSolutions.json)</sup></sup></sub>
 - ✨: PACS - Kết nối PACS (BV TÂM PHÚC) #6
 		Cấu hình sử dụng PACS (BV Tâm Phúc)
