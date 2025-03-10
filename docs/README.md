@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.25.0310.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503100-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Diagnose hỗ trợ chụp ảnh và trả kết quả cùng một Form
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/51
+
+![](https://i.imgur.com/TUd6X5P.png)
+
+![](https://i.imgur.com/HjzxlgJ.png)
+<<<<<<< HEAD
+
+## [v.3.25.0310.0]()
+- ✨: Yêu cầu: Diagnose hỗ trợ chụp ảnh và trả kết quả cùng một Form
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/51
+
+![](https://i.imgur.com/TUd6X5P.png)
+![](https://i.imgur.com/HjzxlgJ.png)
+=======
+
 ## [v.3.25.0228.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32502285-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32502285-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32502285-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose trả kết quả điện tim (PK Sadec) #104
 	Fix lỗi khi lưu lần 2:
