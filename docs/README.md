@@ -6,6 +6,28 @@
 
 #
 
+## [v.3.25.0311.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503113-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503113-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503113-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Chức năng ghi nhận dữ liệu phân luồng kết quả theo tham số `phanluong.ketqua`.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/109
+
+## [v.3.25.0311.2]()
+
+- ✨: Chức năng ghi nhận dữ liệu phân luồng kết quả theo tham số `phanluong.ketqua`.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/109
+
+## [v.3.25.0311.1]()
+
+- ✨: Chức năng ghi nhận dữ liệu phân luồng kết quả theo tham số `phanluong.ketqua`.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/109
+<<<<<<< HEAD
+
+## [v.3.25.0311.0]()
+
+- ✨: Chức năng ghi nhận dữ liệu phân luồng kết quả theo tham số `phanluong.ketqua`.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/109
+=======
+
 ## [v.3.25.0310.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503100-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Diagnose hỗ trợ chụp ảnh và trả kết quả cùng một Form
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/51
