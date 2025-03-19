@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0319.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503190-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Cập nhật API kết nối PACS Bệnh viện Tâm Phúc
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/102 
+
+- Bổ sung kiểm tra kết quả và đưa vào mô tả bệnh lý và kết luận từ PACS nếu có 
+- Mô tả bệnh lý áp dụng tham số ha.sudungmotabenhly = 0 và ha.sudungchitietmtbl = 0
+![](https://i.imgur.com/6McIs4t.png)
+![](https://i.imgur.com/0ZuEREy.gif)
+
 ## [v.3.25.0311.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503113-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503113-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503113-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Chức năng ghi nhận dữ liệu phân luồng kết quả theo tham số `phanluong.ketqua`.
