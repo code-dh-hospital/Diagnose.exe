@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0322.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503220-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Cập nhật API kết nối PACS Bệnh viện Tâm Phúc #102
+	 Fix lỗi: đã hủy gửi PACS, trên HIS vẫn chưa hủy
+	 ![](https://i.imgur.com/IesblRM.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/102
+
 ## [v.3.25.0319.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32503190-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Cập nhật API kết nối PACS Bệnh viện Tâm Phúc
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/102 
