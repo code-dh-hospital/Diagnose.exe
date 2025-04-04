@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0404.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504040-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi: Gửi kết quả Xquang, City từ HIS sangPACS chưa được #203
+	- Cập nhật: gửi chỉ định và kết quả với tiếng Việt có dấu (bản trước gửi không dấu)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/203
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/6
+
 ## [v.3.25.0403.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504031-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi: Gửi kết quả Xquang, City từ HIS sangPACS chưa được #203
 	- Cập nhật:
