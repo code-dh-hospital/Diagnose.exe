@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.25.0406.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504060-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: `Phiếu XQ, Phiếu chụp CT` bổ sung `QRCode` từ `link viewer` ca chụp từ hệ thống PACS (Bệnh viện Tâm Phúc).
+Phiếu X-Quang:
+![](https://i.imgur.com/6DbvFE8.png)
+
+Phiếu Chụp CT:
+![](https://i.imgur.com/21cOI3I.png)
+![](https://i.imgur.com/CHwE19J.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/156
+
 ## [v.3.25.0404.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504042-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504042-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504042-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi: Gửi kết quả Xquang, City từ HIS sangPACS chưa được #203
 	- Cập nhật: gửi kết quả mô tả và kết luận, có thể xuống dòng
