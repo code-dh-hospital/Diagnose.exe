@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.25.0409.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504091-NasDHSolutions.json)</sup></sup></sub>
+- ✨: PACS - Kết nối PACS (BV TÂM PHÚC) #6
+	- Cập nhật: BV Tâm Phúc lấy giá trị theo tham số khi kết nối PACS:
+		+ ip_server_pacs
+		+ ha.secret_key
+		+ ha.server_link_viewer
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/6
+<<<<<<< HEAD
+
+## [v.3.25.0409.0]()
+- ✨: PACS - Kết nối PACS (BV TÂM PHÚC) #6
+	- Cập nhật: BV Tâm Phúc lấy giá trị theo tham số khi kết nối PACS:
+		+ ip_server_pacs
+		+ ha.secret_key
+		+ ha.server_link_viewer
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/6
+=======
+
 ## [v.3.25.0408.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504080-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - DIAGNOSE - Form trả kết quả nội soi nút Mở hình ảnh bấm vào không hiển thị form
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/211
