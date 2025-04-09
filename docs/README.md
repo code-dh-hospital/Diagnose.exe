@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0409.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504092-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Kết nối PACS BV Tâm Phúc: Bổ sung hàm lấy liên kết PatientPortalDirectLink tạo QRCode trên phiếu kết quả.
+![](https://i.imgur.com/7mYHwJe.png)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/6
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/156
+
 ## [v.3.25.0409.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504091-NasDHSolutions.json)</sup></sup></sub>
 - ✨: PACS - Kết nối PACS (BV TÂM PHÚC) #6
 	- Cập nhật: BV Tâm Phúc lấy giá trị theo tham số khi kết nối PACS:
