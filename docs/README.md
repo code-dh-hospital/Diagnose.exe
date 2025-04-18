@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.0418.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504180-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng ký số đối với các mẫu kết quả Chẩn đoán hình ảnh/Thăm dò chức năng.
+![](https://i.imgur.com/3qXmOni.png)
+![](https://i.imgur.com/bfmwrwi.png)
+![](https://i.imgur.com/5Hu4B4W.png)
+![](https://i.imgur.com/Ldd8DUQ.png)
+![](https://i.imgur.com/c7At5JC.png)
+![](https://i.imgur.com/SKgCO4g.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/66
+
 ## [v.3.25.0415.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504151-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi: Sổ chẩn đoán hình ảnh không thể hiện kết quả loại CLS chức năng hô hấp.
