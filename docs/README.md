@@ -6,6 +6,34 @@
 
 #
 
+## [v.3.25.0418.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504182-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504182-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504182-NasDHSolutions.json)</sup></sup></sub>
+- ✨: PACS - Kết nối PACS (BV TÂM PHÚC) #6
+	+ Cập nhật:
+		- Gửi chỉ định theo mô tả:
+		![](https://i.imgur.com/noZhkDI.png)
+		Một số thao tác gửi:
+		![](https://i.imgur.com/M7P51EH.gif)
+
+		- Cập nhật chỉ định:
+		+ XQ:
+		![](https://i.imgur.com/zmyQKoI.png)
+		![](https://i.imgur.com/pgSaLCi.png)
+
+		+ CT:
+		![](https://i.imgur.com/stj9XKS.png)
+
+		Hệ thống PACS phản hồi khi nhận thông tin
+		![](https://i.imgur.com/spoERCQ.png)
+		![](https://i.imgur.com/eOkWkOS.png)
+
+		+ Điện não:
+		![](https://i.imgur.com/hRPG1WQ.png)
+		![](https://i.imgur.com/ZlVvyly.png)
+
+		+ Không hiển thị link sau khi thực hiện tác lưu kết quả
+
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/6
+
 ## [v.3.25.0418.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504181-NasDHSolutions.json)</sup></sup></sub>
 - ✨: update
 
