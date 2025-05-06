@@ -6,6 +6,25 @@
 
 #
 
+## [v.3.25.0506.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505060-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Mô tả thêm bắt thời gian thực hiện theo Kho CĐHA #22
+	- Cập nhật:
+		+ Nếu [Ngày thực hiện y lệnh đã chọn trên form] <= pskhamha.ngaycd (lấy max theo manv trả kết quả) => Cảnh báo và không cho lưu
+		+ Chụp CT:
+		![](https://i.imgur.com/KdFcrnT.png)
+		![](https://i.imgur.com/Y5dKZQk.png)
+
+		+ Siêu âm:
+		![](https://i.imgur.com/SAYvfcR.png)
+
+		+ Nếu [pskhamha.ngaycd + sophutthuchien] > [Ngày trả kết quả trên form] => Cảnh báo và không cho lưu
+		+ Điện tim
+		![](https://i.imgur.com/HlCqgkG.png)
+		+ XQ:
+		![](https://i.imgur.com/K3t1JlJ.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/22
+
 ## [v.3.25.0427.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32504270-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi không gửi được kết quả CT và XQ sang hệ thống PACS (BV Tâm Phúc).
