@@ -6,6 +6,81 @@
 
 #
 
+## [v.3.25.0519.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505193-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505193-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505193-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32/2023/TT-BYT. #176
+	 ✅ Mẫu đã hoàn thành: XQuang, Điện não, Lưu Huyết Não, Chức Năng Hô Hấp
+		1. Xquang:
+		![](https://ibb.co/Z6yC506C)
+		![](https://ibb.co/W4J5Pmwt)
+
+		2. Điện não:
+		![](https://ibb.co/d08JsVkr)
+		![](https://ibb.co/1Gtx8MPx)
+
+		3. Lưu Huyết Não:
+		![](https://ibb.co/gqDSwPH)
+		![](https://ibb.co/Hf3kcY7N)
+
+		4. Chức Năng Hô Hấp:
+		![](https://ibb.co/C5T89xwH)
+		![](https://i.ibb.co/q3NGDc5L/Debug-Diagnose-5-R35-ZZYGm-G.png)
+
+	  ❌  Mẫu chưa hoàn thành, trễ hạn: Siêu âm tim, Đàn hồi gan
+
+	  - Phạm vị áp dụng: Bệnh viện Quân Dân y tỉnh Đồng Tháp
+	  - Cần nhóm triển khai hỗ trợ 1 bộ dữ liệu hoàn chỉnh cho các biểu mẫu trên để thuận tiện cho việc TEST
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
+<<<<<<< HEAD
+
+## [v.3.25.0519.2]()
+- ✨: Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32 2023 TT-BYT. #176
+	 ✅ Mẫu đã hoàn thành: XQuang, Điện não, Lưu Huyết Não, Chức Năng Hô Hấp
+		1. Xquang:
+		![](https://ibb.co/Z6yC506C)
+		![](https://ibb.co/W4J5Pmwt)
+
+		2. Điện não:
+		![](https://ibb.co/d08JsVkr)
+		![](https://ibb.co/1Gtx8MPx)
+
+		3. Lưu Huyết Não:
+		![](https://ibb.co/gqDSwPH)
+		![](https://ibb.co/Hf3kcY7N)
+
+		4. Chức Năng Hô Hấp:
+		![](https://ibb.co/C5T89xwH)
+		![](https://i.ibb.co/q3NGDc5L/Debug-Diagnose-5-R35-ZZYGm-G.png)
+
+	  ❌  Mẫu chưa hoàn thành, trễ hạn: Siêu âm tim, Đàn hồi gan
+
+	  - Phạm vị áp dụng: Bệnh viện Quân Dân y tỉnh Đồng Tháp
+	  - Cần nhóm triển khai hỗ trợ 1 bộ dữ liệu hoàn chỉnh cho các biểu mẫu trên để thuận tiện cho việc TEST
+
+## [v.3.25.0519.1]()
+- ✨:Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32/2023/TT-BYT. #176
+	 ✅ Mẫu đã hoàn thành: XQuang, Điện não, Lưu Huyết Não, Chức Năng Hô Hấp
+		1. Xquang:
+		![](https://ibb.co/Z6yC506C)
+		![](https://ibb.co/W4J5Pmwt)
+
+		2. Điện não:
+		![](https://ibb.co/d08JsVkr)
+		![](https://ibb.co/1Gtx8MPx)
+
+		3. Lưu Huyết Não:
+		![](https://ibb.co/gqDSwPH)
+		![](https://ibb.co/Hf3kcY7N)
+
+		4. Chức Năng Hô Hấp:
+		![](https://ibb.co/C5T89xwH)
+		![](https://i.ibb.co/q3NGDc5L/Debug-Diagnose-5-R35-ZZYGm-G.png)
+
+	  ❌  Mẫu chưa hoàn thành, trễ hạn: Siêu âm tim, Đàn hồi gan
+
+	  - Phạm vị áp dụng: Bệnh viện Quân Dân y tỉnh Đồng Tháp
+	  - Cần nhóm triển khai hỗ trợ 1 bộ dữ liệu hoàn chỉnh cho các biểu mẫu trên để thuận tiện cho việc TEST
+
 ## [v.3.25.0519.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505190-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Sổ chẩn đoán hình ảnh: điều chỉnh cột [Ngày thực hiện] thành [Ngày đọc kết quả].
