@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0520.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505200-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - PK Đông Tây: Diagnose không bắt số phút tối thiểu giữa 2 lần trả kết quả của người đọc kết quả khi tài khoản đăng nhập khác tài khoản đọc kết quả
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/301
+
+- Fix lỗi sai mã NV đọc kết quả theo tham số chukydtdn khi kiểm tra số phút tối thiểu cho Điện tim, Điện não
+![](https://i.ibb.co/3mscgcLz/f-Dxgp8-Dw5-F.png)
+![](https://i.ibb.co/fVB5bVYt/y-Lmf-Hz4-Ac-C.png)
+
 ## [v.3.25.0519.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505193-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505193-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505193-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32/2023/TT-BYT. #176
 	 ✅ Mẫu đã hoàn thành: XQuang, Điện não, Lưu Huyết Não, Chức Năng Hô Hấp
