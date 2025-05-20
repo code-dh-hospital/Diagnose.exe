@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.25.0520.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505201-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32/2023/TT-BYT. #176
+	 ✅ Mẫu đã hoàn thành: Siêu âm tim, Đàn hồi gan
+		1. Siêu âm tim:
+		![](https://i.ibb.co/mVQdk7Zb/Debug-Diagnose-3aay-DEp-FGU.png)
+		![](https://i.ibb.co/r2HCFkHk/Debug-Diagnose-Jkl-Owle7-Ws.png)
+
+		2. Đàn hồi gan:
+		![](https://i.ibb.co/DgvNbZfy/Debug-Diagnose-1-Fotoc-AAIg.png)
+		![](https://i.ibb.co/jZWm4f8W/Debug-Diagnose-JAPajqp-O0-Y.png)
+
+	  - Phạm vị áp dụng: Bệnh viện Quân Dân y tỉnh Đồng Tháp
+
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
+
 ## [v.3.25.0520.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505200-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - PK Đông Tây: Diagnose không bắt số phút tối thiểu giữa 2 lần trả kết quả của người đọc kết quả khi tài khoản đăng nhập khác tài khoản đọc kết quả
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/301
