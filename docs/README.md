@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.25.0521.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505210-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV Đông Hải: Diagnose Mẫu siêu âm tim và siêu âm đàn hồi gan lấy sai ngày kết quả khi xem lại kết quả trên form #299
+	- Fix lỗi:
+	- Siêu âm tim:
+	![](https://i.ibb.co/0V9w4g8z/opera-h5-Yrr-Nwbwi.png)
+	![](https://i.ibb.co/JRxPVrtc/n7douqzpv-C.png)
+
+	- Đàn hồi gan:
+	![](https://i.ibb.co/1krGnG9/opera-PBy-JYIc9hh.png)
+	![](https://i.ibb.co/FLKF3x4G/Debug-Diagnose-j-KCvh-Ko-CQ6.png)
+
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/299
+
 ## [v.3.25.0520.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505201-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32/2023/TT-BYT. #176
 	 ✅ Mẫu đã hoàn thành: Siêu âm tim, Đàn hồi gan
