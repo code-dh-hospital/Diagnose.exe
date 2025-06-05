@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.25.0605.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506050-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật bổ sung mẫu 1 ảnh và 4 ảnh: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
+	- Cập nhật:
+		- Mở tất cả bệnh viện sử dụng
+		- Bổ sung 2 mẫu siêu âm tim: 1 ảnh chung với kết quả và 4 ảnh in ở trang thứ 2
+
+		- Mẫu 1 ảnh:
+		![](https://img.upanh.tv/2025/06/05/AbeUBuqkfU.png)
+		![](https://img.upanh.tv/2025/06/05/DebugDiagnose_4CgnnL60n1.png)
+
+		- Mẫu 4 ảnh, 2 trang:
+		![](https://img.upanh.tv/2025/06/05/DebugDiagnose_4CgnnL60n1.png)
+		![](https://img.upanh.tv/2025/06/05/DebugDiagnose_qsLkIIFIBM.png)
+		![](https://img.upanh.tv/2025/06/05/DebugDiagnose_KVWjZbMlrc.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
+
 ## [v.3.25.0521.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32505210-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Đông Hải: Diagnose Mẫu siêu âm tim và siêu âm đàn hồi gan lấy sai ngày kết quả khi xem lại kết quả trên form #299
 	- Fix lỗi:
