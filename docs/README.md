@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0605.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506051-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật bổ sung mẫu 1 ảnh và 4 ảnh: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
+	- Cập nhật:
+		- Fix lỗi lấy lộn tên bs chỉ định và bs trả kết quả
+
+		![](https://img.upanh.tv/2025/06/05/DebugDiagnose_fzSXF0tMGl.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
+
 ## [v.3.25.0605.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506050-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật bổ sung mẫu 1 ảnh và 4 ảnh: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
 	- Cập nhật:
