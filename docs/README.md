@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0620.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506200-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - PK Đông Tây: Diagnose không chỉnh được kết quả CLS cũ #352
+	- Fix: cảnh báo thời gian và cho người dùng lựa chọn có tiếp tục lưu hay không
+
+	![](https://i.vgy.me/4BFtxx.png)
+	![](https://i.vgy.me/Ghocqf.png)
+	![](https://i.vgy.me/pCg34b.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/352
+
 ## [v.3.25.0617.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506170-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Ghi nhật ký thao tác Hủy PACS.
