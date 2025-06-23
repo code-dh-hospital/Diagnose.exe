@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0623.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506231-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - DIAGNOSE - Tham số ha.canhbaovuotthoigian =1 không cho lưu kết quả
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/360
+
+- Fix lỗi kiểm tra sai theo tham số ha.sophut_thuchien_toithieu, không cấu hình trả về số phút = 0 vẫn kiểm tra 
+- Nếu có cấu hình kiểm tra thì nguyên tắc thời gian thực hiện y lệnh của CLS sau phải cách tối thiếu số phút đã cấu hình so với ngày kết quả của CLS trước.
+
+![](https://live.staticflickr.com/65535/54608812420_8ff74db677_b.jpg)
+![](https://live.staticflickr.com/65535/54608525386_0bf30ea8da_b.jpg)
+
 ## [v.3.25.0623.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506230-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32/2023/TT-BYT. #176
 	- Cập nhật:
