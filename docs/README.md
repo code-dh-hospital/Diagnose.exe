@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0625.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506250-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi - Diagnose: Không lưu được kết quả CLS (phần mềm báo ngày kết quả phải lớn hơn ngày kết quả trước đó).
+![](https://lh3.googleusercontent.com/pw/AP1GczN2ukgodDoXGD9aqZ4jaMdpRONtv-SJflrPgLAZRbrdtQSR7R-L7vpyLwZYlsJCY7dGaz4wKBaPzxl6-SHp1mds2iA3KDfBRCsAPN7S1Z7KpRTpSZ5fneGaBs9upe_8w7ibYEa-JZJOXmu1PVeCjzJW=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/389
+
 ## [v.3.25.0623.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506231-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - DIAGNOSE - Tham số ha.canhbaovuotthoigian =1 không cho lưu kết quả
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/360
