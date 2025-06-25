@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0625.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506252-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi - Diagnose: Không lưu được kết quả CLS (phần mềm báo ngày kết quả phải lớn hơn ngày kết quả trước đó). Sửa lỗi ngày kết quả lấy sai khi tham số ha.gioketqua = 1.
+![](https://lh3.googleusercontent.com/pw/AP1GczO82U_LEVxd5KSGwB3zkfn_pO3RstspKUKFQNX9EYIwu1ti4wWzExEa6Iugrk2Qof0DSdGBsI0v7ELOlPIO7PaHTmb8kXioe_zTy5jCIiYJfV4JGHtOi7z0sQFQ_W9e9ZfA3RpDzD9K-wrEPHBhYMKp=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/389
+
 ## [v.3.25.0625.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506251-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi - Diagnose: Không lưu được kết quả CLS (phần mềm báo ngày kết quả phải lớn hơn ngày kết quả trước đó).
