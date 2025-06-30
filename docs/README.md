@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.25.0630.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506301-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - PK Đông Tây: Diagnose không chỉnh được kết quả CLS cũ #352	
+	- Cập nhật thêm 1 số form, cận lâm sạng, theo từng loại Đo mật độ xương, nội soi tai mũi họng, XQuang, điện tim, lưu huyết não, điện não,...
+	P/s: fix theo form, theo cận lâm sàng báo lỗi. Còn khi test lại cls khác, form khác là do báo lỗi không đầy đủ, không phải do lỗi phát sinh	
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/352
+<<<<<<< HEAD
+
+## [v.3.25.0630.0]()
+- 🐛: Lỗi - PK Đông Tây: Diagnose không chỉnh được kết quả CLS cũ #352	
+	- Cập nhật thêm 1 số form, cận lâm sạng, theo từng loại Đo mật độ xương, nội soi tai mũi họng, XQuang, điện tim, lưu huyết não, điện não,...
+	P/s: fix theo form, theo cận lâm sàng báo lỗi. Còn khi test lại cls khác, form khác là do báo lỗi không đầy đủ, không phải do lỗi phát sinh	
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/352
+=======
+
 ## [v.3.25.0625.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506252-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi - Diagnose: Không lưu được kết quả CLS (phần mềm báo ngày kết quả phải lớn hơn ngày kết quả trước đó). Sửa lỗi ngày kết quả lấy sai khi tham số ha.gioketqua = 1.
