@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.25.0707.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507070-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32/2023/TT-BYT. #176
+	- Cập nhật:
+	- Trường hợp cấu hình số 3. Siêu âm tim kết quả in ngang A4, 2 ảnh: Có chọn hình, nhưng phiếu kết quả cũng không hiển thị được ảnh
+	![](https://i.vgy.me/qKdIqc.png)
+
+	- Đối với cấu hình số 5. 4 ảnh in ở trang thứ 2 A4 vẫn còn lỗi không chọn được 4 hình.	
+	![](https://i.vgy.me/5LmjAv.png)
+	![](https://i.vgy.me/FToUEY.png)
+
+	- Đàn hồi gan:
+	![](https://i.vgy.me/Xitmn4.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
+
 ## [v.3.25.0630.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32506301-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - PK Đông Tây: Diagnose không chỉnh được kết quả CLS cũ #352	
 	- Cập nhật thêm 1 số form, cận lâm sạng, theo từng loại Đo mật độ xương, nội soi tai mũi họng, XQuang, điện tim, lưu huyết não, điện não,...
