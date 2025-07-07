@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0707.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507071-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: YÊU CẦU - DIAGNOSE - Trả kết quả CLS Thu phí chỉ định cho đối tượng BHYT không bắt/áp dụng với 3 tham số ha.sophut...
+![](https://lh3.googleusercontent.com/pw/AP1GczM4LtBJREHp0McqkQBbMBLiX_S8FeVPCiILgIyB0l90Q1iNYG7WuaDj2XUAvG9R6rbdZsSmIFYO5jkSy2yBAidDDKs_ukXydNOiEriyKNMKsHE3DgnmAgwXCJ_CjzHBvb_MR_zmzYQOHxXeKTvQGd8E=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/321
+
 ## [v.3.25.0707.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507070-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32/2023/TT-BYT. #176
 	- Cập nhật:
