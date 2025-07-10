@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.0710.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507100-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Tự thiết kế một số mẫu đối với Thông tư số 32/2023/TT-BYT. #176
+	- Cập nhật:
+		- Fix Cấu hình số 6. Siêu âm đàn hồi gan, không check cấu hình Sử dụng capture trực tiếp từ chương trình nhưng khi vào form chụp hình lại load chức năng chụp hình trực tiếp từ máy tính, chứ không mở form chọn hình như các CLS khác không có cấu hình đàn hồi gan
+		![](https://i.vgy.me/1aaas3.png)
+
+		- Fix lỗi Khi cấu hình số 3. Siêu âm tim kết quả in ngang A4, 2 ảnh, nhập đầu đủ hết tất cả các chỉ số, nhưng có 1 vài chỉ số không load được lên trang kết quả.
+		![](https://i.vgy.me/0D4BRA.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
+
 ## [v.3.25.0707.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507071-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: YÊU CẦU - DIAGNOSE - Trả kết quả CLS Thu phí chỉ định cho đối tượng BHYT không bắt/áp dụng với 3 tham số ha.sophut...
