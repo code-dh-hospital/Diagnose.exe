@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0730.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507300-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Yêu cầu - Bổ sung chức năng [Tra cứu lịch sử CĐHA/TDCN] #387
+![](https://lh3.googleusercontent.com/pw/AP1GczOSjOukJmQCt2PkuFyRCmTLZLMEsRnSFODugUoq4IH2Y2GlAQ_2J7a-VwQi1bdZtWJSDQzzbrLO1sHZc1Gi6uNpdncSDkUVo6KxNyz3X7V8e501zsZgQ1L2gz_4KDOSKU6X-7rCRWDeWqQbtq5gH2Kz=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNxYhXz82kCoskWWoGSoMCNxh7C2-hd6KFuVVsyF4-Xw4Fi0Z5n0RgCj3CefieqPT28p7TMWMsWJxNqq3tvzTHhIir9LbMioFudc6yDU_zw7lN-OJ_K5owmkYmXCtAP4o1sNwL0fabIhIKCP4d9ADYj=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/387
+
 ## [v.3.25.0728.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32507281-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung thao tác hỗ trợ kết nối PACS Savina (tại BV YHCT Cần Thơ). Sửa lỗi click lấy kết quả từ PACS.
