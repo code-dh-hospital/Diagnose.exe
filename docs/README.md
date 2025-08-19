@@ -6,6 +6,30 @@
 
 #
 
+## [v.3.25.0819.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508191-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose ghi nhật ký message chuẩn HL7 khi gửi chỉ định PACS báo không thành công #385
+	- Cập nhật:
+		- Ghi log tất cả thao tác lỗi khi gửi dữ liệu sang PACS
+		- Folder: Log
+		- Mỗi ngày ghi 1 file
+
+		![](https://i.vgy.me/JlTn70.png)
+		![](https://i.vgy.me/OMLGJ5.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/385
+<<<<<<< HEAD
+
+## [v.3.25.0819.0]()
+- ✨: Yêu cầu - Diagnose ghi nhật ký message chuẩn HL7 khi gửi chỉ định PACS báo không thành công #385
+	- Cập nhật:
+		- Ghi log tất cả thao tác lỗi khi gửi dữ liệu sang PACS
+		- Folder: Log
+		- Mỗi ngày ghi 1 file
+
+		![](https://i.vgy.me/JlTn70.png)
+		![](https://i.vgy.me/OMLGJ5.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/385
+=======
+
 ## [v.3.25.0818.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508180-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung thao tác hỗ trợ kết nối PACS Savina (tại BV YHCT Cần Thơ). Lấy bổ sung lời dặn.
