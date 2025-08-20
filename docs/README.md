@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.25.0820.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508200-NasDHSolutions.json)</sup></sup></sub>
+	- Fix lỗi:
+	  
+	  + Không check xóa thư mục
+	  ![](https://i.vgy.me/lwsS9g.png)
+	  
+	  + Fix Có cấu hình xóa thư mục chứa hình --> không xóa được hình
+	  + Không cảnh báo chọn nhiều hơn 2 hình: đàn hồi gan
+	   ![](https://i.vgy.me/jRIK91.png)
+	   ![](https://i.vgy.me/nqlkEU.png)
+	   ![](https://i.vgy.me/AJXx7a.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/176
+
 ## [v.3.25.0819.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32508191-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose ghi nhật ký message chuẩn HL7 khi gửi chỉ định PACS báo không thành công #385
 	- Cập nhật:
