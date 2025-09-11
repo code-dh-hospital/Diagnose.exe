@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0911.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509110-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Yêu cầu - Diagnose: Bổ sung chức năng xuất file excel Danh mục bệnh lý. #417
+	- Cập nhật: build lại
+	
+	![](https://i.vgy.me/zH4eF9.png)
+	![](https://i.vgy.me/OOnGpV.png)
+	![](https://i.vgy.me/Xo22hm.png)
+	
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/417
+
 ## [v.3.25.0910.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509101-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Yêu cầu - Diagnose: Bổ sung chức năng xuất file excel Danh mục bệnh lý. #417
 	- Cập nhật:
