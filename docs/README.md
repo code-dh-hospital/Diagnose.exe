@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.0915.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509150-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi: HIS hiển thị thiếu thông tin CLS Chẩn đoán hình ảnh
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/16
+- 📕: Xử lý nếu nhận kết quả từ EMR `api = 1` và `filePath != ''` thì view kết quả từ EMR tại DH.ReportCLS.KetQua.HA.ClsHinhAnh.Preview()
+
+![](https://i.vgy.me/kLjcNe.png)
+
+![](https://i.vgy.me/vB93XT.png)
+
+![](https://i.vgy.me/bae1G6.png)
+
 ## [v.3.25.0914.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509140-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bệnh án điện tử tích hợp với DHS #5
 	- Tích hợp ký số:
