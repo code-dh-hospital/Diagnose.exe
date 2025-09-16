@@ -6,6 +6,26 @@
 
 #
 
+## [v.3.25.0916.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509161-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diangose: Tài khoản bác sĩ không có đăng ký Chữ ký số trả kết quả báo lỗi #519
+	- Cập nhật: kiểm tra và cập nhật script
+
+	![](https://i.vgy.me/SNCzne.png)
+	![](https://i.vgy.me/5uwVVB.png)
+	![](https://i.vgy.me/RukfzX.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/519
+<<<<<<< HEAD
+
+## [v.3.25.0916.0]()
+- 🐛: Lỗi - Diangose: Tài khoản bác sĩ không có đăng ký Chữ ký số trả kết quả báo lỗi #519
+	- Cập nhật:
+	![](https://i.vgy.me/5uwVVB.png)
+	![](https://i.vgy.me/RukfzX.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/519
+=======
+
 ## [v.3.25.0915.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509152-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509152-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509152-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bệnh án điện tử tích hợp với DHS #5
 - 🐛: Fix lỗi khi in ký số EMR, phần lable đặt chữ ký chưa đổ sang màu trắng
