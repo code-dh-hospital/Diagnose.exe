@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.25.0922.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509220-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung xử lý chuyển hình ảnh sang Base64 add vào Json Ký số EMR tại ClsHinhAnh
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/5
+
+- Thêm thông tin PCReqDltVoucherNo.
+- Thêm thông tin UOMName.
+- Đổi định dạng NgayChiDinh,NgayThucHien, NgayKetQua sang yyyy-MM-dd HH24:mm:ss
+- Nếu có hình ảnh kết quả sẽ chuyển thành Base64 với IMAGE thứ tự tăng dần.
+
+![](https://i.vgy.me/PkqD0h.png)
+
+![](https://i.vgy.me/GcBv39.png)
+
 ## [v.3.25.0919.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509191-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bệnh án điện tử tích hợp với DHS #5
 - ✨: Fix lỗi - khi in ký số EMR thì lable ##{S1}##,##{S2}## đổi sang màu trắng nhưng khi in thường thì vẫn là màu đen
