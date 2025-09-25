@@ -6,6 +6,27 @@
 
 #
 
+## [v.3.25.0925.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509251-NasDHSolutions.json)</sup></sup></sub>
+- ✨: DHS - Bổ sung mẫu Monitor sản khoa, bổ sung ký số cho CT và MRI
+- 🐛: Fix lỗi không ký số được đối với CLS cấu hình mã loai = MO và truyền sai manv vào SigntoryCode
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/32
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/5
+
+- Bổ sung ký số cho CT và MRI 
+![](https://i.vgy.me/qWPVRl.png)
+
+![](https://i.vgy.me/HxJ9og.png)
+
+- Fix lấy sai thông tin SigntoryCode khi ký số và huỷ ký số EMR
+
+![](https://i.vgy.me/ejqgK2.png)
+
+![](https://i.vgy.me/XfPPuT.png)
+
+- Fix không ký số Đo loãng xương cấu hình maloai = MO
+
+![](https://i.vgy.me/y8bZ1R.png)
+
 ## [v.3.25.0925.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509250-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung chức năng ngưng sử dụng mã máy thực hiện cls (BV Thanh Bình)
 - ✨: Khi load danh sách máy thực hiện CLS thêm điều kiện xoa = 0.
