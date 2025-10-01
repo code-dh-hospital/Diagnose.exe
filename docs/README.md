@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1001.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510010-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose Tài khoản không ký số vào xem kết quả Chẩn đoán hình ảnh của bác sĩ có chữ ký số trả báo lỗi
+![](https://i.vgy.me/jRAATJ.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/536
+
 ## [v.3.25.0930.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32509300-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose Tài khoản không ký số vào xem kết quả Chẩn đoán hình ảnh của bác sĩ có chữ ký số trả báo lỗi
 ![](https://i.vgy.me/jRAATJ.gif)
