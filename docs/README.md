@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1006.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510060-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Cập nhật tham số ha.ketluan = 2 bắt kết luận không được để trống cho tất cả đối tượng
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/482
+
+- Bắt buộc nhập kết luận hoặc cảnh báo bỏ trống kết luận nếu CLS có thanh BHYT không phân biệt theo đối tượng theo tham số ha.ketluan
+
+![](https://i.vgy.me/Hq3ZEx.png)
+
 ## [v.3.25.1003.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510032-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: fix lỗi không hiển thị được chữ ký
 ![](https://i.vgy.me/T1ZJS7.png)
