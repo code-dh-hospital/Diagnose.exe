@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1008.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510080-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Cải tiến tốc độ thao tác lưu khi thực hiện chẩn đoán hình ảnh/thăm dò chức năng.
+[Xem chi tiết Video](https://gofile.me/78TQg/8GyTw2FHj)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/487
+
 ## [v.3.25.1006.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510060-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Cập nhật tham số ha.ketluan = 2 bắt kết luận không được để trống cho tất cả đối tượng
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/482
