@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.25.1020.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510200-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Phiếu đo mật độ xương chưa cấu hình ký số
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/55
+
+- Fix lỗi sai mã phiếu khi ký số kết quả CT, Fix lấy sai thông tin CLS khi chuyển XML đưa vào ký số EMR
+
+![](https://files.catbox.moe/hia4jx.png)
+
+- Bổ sung thêm ký số đối với các CLS có cấu hình Đo loãng xương
+
+![](https://files.catbox.moe/3vpgvy.png)
+
+![](https://files.catbox.moe/mzie6o.png)
+
 ## [v.3.25.1015.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32510151-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix không hiển thị Nút Kết quả khi chọn CLS đã thực hiện
 - ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/50
