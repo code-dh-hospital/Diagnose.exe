@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1106.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511061-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Diagnose: Hiệu chỉnh sql để lấy danh sách mã máy - LOI - dh-issue- #610
+- 🐛:  ***Xử lý mặc định null là còn sử dụng đối với danh mục mã máy.*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/06/DESKTOP-2FLMTI6-explorer-2025-11-06-15h31p35.296.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/610#issuecomment-18487
+
 ## [v.3.25.1106.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511060-NasDHSolutions.json)</sup></sup></sub>
 ✨: Yêu cầu - Diagnose: Load thời gian thực hiện y lệnh theo thời gian bắt đầu gửi từ PACS
 ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/551
