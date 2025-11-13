@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511130-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagonose Tài khoản không có chữ ký số vào xem kết quả không view được phiếu kết quả mà in ra luôn
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/618
+
+![](https://files.catbox.moe/79nxnj.png)
+![](https://files.catbox.moe/2v9a0l.png)
+
 ## [v.3.25.1106.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511062-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511062-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511062-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Diagnose: Hiệu chỉnh sql để lấy danh sách mã máy - LOI - dh-issue- #610
 - 🐛:  ***Xử lý mặc định null là còn sử dụng đối với danh mục mã máy.*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/06/DESKTOP-2FLMTI6-explorer-2025-11-06-15h31p35.296.png)
