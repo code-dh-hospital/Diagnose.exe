@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1118.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511180-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose chức năng trả kết quả cls ghi nhận không đúng mô tả bệnh lý (BV Thạnh Trị)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/625
+- 📕: Chặn không cho nhập ký tự nháy đơn hoặc nháy đôi vào mã bệnh lý, ràng buộc Mabl phải hợp lệ khi lưu kết quả.
+
+![](https://files.catbox.moe/p0px0f.png)
+
 ## [v.3.25.1113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511130-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagonose Tài khoản không có chữ ký số vào xem kết quả không view được phiếu kết quả mà in ra luôn
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/618
