@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511190-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Thực hiện bổ sung các hàm kiểm tra ngày thực hiện y lệnh theo mô tả: [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczODrbNQSXvBET_HfenR7eYEysj4gKr0fYCDYYVRrJfvnE8UXN1KaD6xqJXlktSzbdQDc9GK-SEYNEJj6jrEPPJyzPQivPoR2m3b1usKS6TQoSuspMlFck0U727AgtKnNbqr9vmI0-t_yX6WxTzDOfm1=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM-CCsL_GxktSSu02NG0YRA3YOCNcmQeZFzYXuvhtK0jJT8AeY1gmgWXwc2ktd2zHmLoTc0GHwuvHXBqb60gmfI8YynQ6NFmxXYZ7I1CqRcM8fc6t-IFw1JDTFb-GxJwkuPI76UvaDTj4wRNjdRvaAP=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/515
+
 ## [v.3.25.1118.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511180-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose chức năng trả kết quả cls ghi nhận không đúng mô tả bệnh lý (BV Thạnh Trị)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/625
