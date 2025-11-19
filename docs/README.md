@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1119.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511191-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Thực hiện bổ sung các hàm kiểm tra ngày thực hiện y lệnh theo mô tả: [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczPszMYpCxAoL5gup4a0Rc6FZwL4wxSUgzol9YsEbPYC1ZNxGf61g7zUU3EMHGLnLG3sow3oK_MUtedfhFqzecOoBnUwnbsC0J3lbWwHS7hblwXwCd41HKMgqRuExIbKJ4i2RkeO4EfU8efSuxVougcS=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPNMXtiUSjeHCuuarKBv4Gpa1pZsk5kZhF25uHsxmswCkDaAu74LzcZ-aCEZlE-a20HGpiQsTKj5lIysaoR5hhmYULHIn_owMceb6ZInLWGGbnLtfm1uUL5L-WgD7QPC_r0RcyW-qQ0bAmtzxfHGpsB=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/515
+
 ## [v.3.25.1119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511190-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Thực hiện bổ sung các hàm kiểm tra ngày thực hiện y lệnh theo mô tả: [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md).
