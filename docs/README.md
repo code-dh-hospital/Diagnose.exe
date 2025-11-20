@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.1120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511200-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Bổ sung chức năng cảnh báo ngày thực hiện y lệnh/ngày kết quả theo nhân viên thực hiện y lệnh/người đọc kết quả theo mô tả [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-ket-qua-doi-voi-nhan-vien.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-ket-qua-doi-voi-nhan-vien.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczMGLHSDkNfKqGGEMyPeY8xkb6IkjZCvN6bXvH2T-hqY6WIgyYpI_VqjseuBSYYrhP3vNQsCkz7qQraNJPtFwDX3A8zDu5bZBeJon4lWblC6aBb6clJZ6bfJl0VeqIjavEZ-gaWxjWAUXCGxoayJ8j56=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN0S0kKKTMGWoxrdFjZQ6n31RbzO-UMSoyf0Kl5-P8tTEZHM6ZX6xeUCYlw9igDQlQq9umUff2WZawyrLpX_sGNVf6nhqbeq4hSOSYhKJ0yIKRxR0wcqd2496-pgUO_y-p1dx5qRGyBiI3zkfqFE3pL=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPD0aEvEyeqsDCl6O-sfmJTnEdqrQ3ajJfPtMebfdwr1xr5LhoHtVdTKEBVl8APtIq4SihhcDd98QRef5o67ykn4FI1IZ8K7UzFzldqv-OHKrtwel8pF4TUKGkrEJ75qhQ20GS3grINQKxbWi6AtEuc=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMuALRqQ_9HJQ9rk0yn2jVgv4WmVyc7rz-a7AmrThkkYRZvxnPdxjbo4KGlSA7LICu4YPfpFU_GuZrVXLWmeHvT-IRU4TEsZaXxS0TaKbt_MBuZBFwZvAwC8kGVNNFla6lkkwG9viR0demzkh1ztypJ=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/568
+
 ## [v.3.25.1119.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511191-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Thực hiện bổ sung các hàm kiểm tra ngày thực hiện y lệnh theo mô tả: [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md).
