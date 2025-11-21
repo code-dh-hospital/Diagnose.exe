@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1121.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511211-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi hàm kiểm tra thời gian thực hiện y lệnh bệnh nhân theo mô tả [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczMtlkKhg4hEuOsfn2oEz6wZ7liwAGRNozr3ztEBe8FpoY8X91rMcP11kI3BeqyEYrFgJXsOpQtlaupc1RMI0ULI2F8RmRfR-gjyoRvNTBHIWEiUkJtNtYlyzIcsM5PA-eLbdhclHS5SXq60dEzYaufp=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/515
+
 ## [v.3.25.1121.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511210-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi hàm kiểm tra thời gian thực hiện y lệnh/đọc kết quả theo tài khoản nhân viên thực hiện y lệnh/đọc kết quả theo mô tả [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-ket-qua-doi-voi-nhan-vien.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-ket-qua-doi-voi-nhan-vien.md) khi tham số cls.thoigianthuchien.nhanvien (canhbao:1) và chọn [Bỏ qua].
