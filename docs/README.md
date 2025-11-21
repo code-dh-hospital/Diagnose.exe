@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1121.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511210-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi hàm kiểm tra thời gian thực hiện y lệnh/đọc kết quả theo tài khoản nhân viên thực hiện y lệnh/đọc kết quả theo mô tả [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-ket-qua-doi-voi-nhan-vien.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-ket-qua-doi-voi-nhan-vien.md) khi tham số cls.thoigianthuchien.nhanvien (canhbao:1) và chọn [Bỏ qua].
+![](https://lh3.googleusercontent.com/pw/AP1GczMiY2y9W7MrtxmFO2KVIdUjLA0s5HMz6Fj5qninmCx7LDNeUML38tPhiZm2tIos-URrepMTXCkik8JT9bXyaAsOYfxognOhcTbIz36Fbgmk49mjkNDRWR-e_EuFDvL8fjYkbDW5gFtlPcy-2qqJvpim=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOOFNgGhPb5zZgE3tYEFwqdF_-Di777gMQrDlw4ksI5FV3DdtuzL_y31SJYD2ZhLX33AuF5ORfzJ351sowWFu89vCun-dboDT_rfs-Fv2qOJ_9zmKH3Qd0ANCmcB2qzOUAH1Pr39ihJ5pgYco1IQsYh=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/568
+
 ## [v.3.25.1120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511200-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Bổ sung chức năng cảnh báo ngày thực hiện y lệnh/ngày kết quả theo nhân viên thực hiện y lệnh/người đọc kết quả theo mô tả [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-ket-qua-doi-voi-nhan-vien.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-ket-qua-doi-voi-nhan-vien.md).
