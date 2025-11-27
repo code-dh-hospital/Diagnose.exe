@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1127.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511270-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi cảnh báo sai thời gian thực hiện y lệnh theo nhân viên.
+![](https://lh3.googleusercontent.com/pw/AP1GczOSCbmAljaItfBED40c9AP0EbccjG74eqcbEzfPciOBIb4_dQhLOhKjYWtu_Ymmupcsvbeg5oXHajwwcIRyGEi3VbMVX0oU-xLOD71QwzKHR-dAoyuYPRwR-Hvb1CvJ3XYpNRGnCGaQehhv_mdjcPDz=w1661-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/568
+
 ## [v.3.25.1124.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32511240-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Laboratory Bổ sung para đối với mẫu kết quả KSK Hợp đồng (BV Cái răng)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/578
