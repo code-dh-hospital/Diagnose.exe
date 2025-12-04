@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1204.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512040-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose: PK Đông Tây: Lỗi mất hình ảnh phiếu kết quả CLS
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/653
+- 📕: bỏ code dư set lại giá trị cho dtMota khi xem kết quả gây ra lỗi tại các form trả kết quả CDHA
+
+![](https://files.catbox.moe/xc2uhj.png)
+
 ## [v.3.25.1203.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512030-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose: PK Đông Tây: Lỗi mất hình ảnh phiếu kết quả CLS
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/653
