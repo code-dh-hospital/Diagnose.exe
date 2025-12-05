@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1205.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512050-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung kiểm soát Số phút tối đa (XML03.NGAY_TH_YL đến XML03.NGAY_KQ) người bệnh BHYT thuộc kho TT, PT, HA, CN.
+![](https://lh3.googleusercontent.com/pw/AP1GczOhhYlBQ8PQqECgMqDQIjIf0Qash9VcRRfCt7HwPPdWgXBjUohBdf5I-p0Gl3cmWNYkXhsDcAULbPQPqt2V1PkE2wB6NI4Q18trE9NQ2wIjPjy17SoqcjM1r4RXpnweSFzZqWuqUjbLgO8y0YtjQdRw=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPhhuIecNC4EeKI9b75CoiENVK4U6jjmXEqJ19QlEqUDEGiK6VQLvWRA1n9V5XRmj5CRW_e5YoBJXFANDvae2EY7nc1kCvu4pNaYbpq0z1oOIKtdgtDHnIZSFLGG2cgCu2-lfNHC43l3Uq_TJ5qG7fl=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/590
+
 ## [v.3.25.1204.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512040-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose: PK Đông Tây: Lỗi mất hình ảnh phiếu kết quả CLS
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/653
