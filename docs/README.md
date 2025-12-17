@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1217.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ chức năng bổ sung chỉ số chuẩn đoán hình ảnh đối với XML4 (BV Thạnh Trị)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/585
+- 📗: Bổ sung cột theo mô tả [CAU_HINH_CHI_SO_XML4_CHO_CDHA.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Quan-tri-Admin/CAU_HINH_CHI_SO_XML4_CHO_CDHA.md)
+- 📕: Bổ sung dữ liệu ma_chi_so và ten_chi_so khi thêm và chỉnh mô tả bệnh lý để sử dụng cho XML4
+
+![](https://i.vgy.me/5WYvPK.png)
+
 ## [v.3.25.1215.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32512151-NasDHSolutions.json)</sup></sup></sub>
 - ✨: YÊU CẦU - Bổ sung parameters.chuthichchidinh trên mẫu thiết kế Phiếu chỉ định CLS và Phiếu trả kết quả Chẩn đoán hình ảnh XQ
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/601
