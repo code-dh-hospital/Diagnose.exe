@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.0109.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601090-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose ghi nhận mã máy BYT mặc định theo Người thực hiện y lệnh và người đọc kết quả
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/613
+- 📗: Mô tả : [CAU_HINH_MA_MAY_THEO_NHAN_VIEN.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/CAU_HINH_MA_MAY_THEO_NHAN_VIEN.md)
+
+![](https://i.vgy.me/Guzlhl.png)
+
+
+- ✨: Bổ sung lọc bệnh nhân theo phòng khám
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/609
+
+![](https://i.vgy.me/hHOBJJ.png)
+
 ## [v.3.26.0106.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601060-NasDHSolutions.json)</sup></sup></sub>
 - ✨: DỰ ÁN XEM KẾT QUẢ CLS TRÊN WEB
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/28
