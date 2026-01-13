@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0113.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601132-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Chức năng cập nhật: `Không sử dụng SELECT *`
+	+ Các form Danh mục: bất thường, bệnh lý, mô tả bệnh lý.
+	+ Các form thực hiện trả kết quả: tất cả các loại chẩn đoán hình ảnh (kho HA) và thăm dò chức năng (kho CN).
+	+ Các form tại menu quản lý Kho: phim XQ/CT/MRI.
+	+ Các chức năng cấu hình: Phim XQ/CT/MRI, Hủy kết quả, dự trù phim XQ/CT, dự trù thuốc, vật tư.
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/101
+
 ## [v.3.26.0113.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601131-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix không set lại chidinhcls.giolaymau khi huỷ kết quả CDHA
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/609
