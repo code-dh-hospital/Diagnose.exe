@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0114.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601142-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Sổ chẩn đoán hình ảnh => Bổ sung cột `[Tài khoản chỉ định]` trên lưới.
+![](https://lh3.googleusercontent.com/pw/AP1GczMU2vaK2OmBvSHCVpTmd65QJK2v9qQSxFrY7cs4p72FMdhR4WHb91SWJ4cNXjzZaBAa-bMe5QyFSN4RgV7tVK6ov16MJ2vXaSABG0RTH2bjmBnOjU7QZv0sIiiIBdTg1HFBicqNkT5EGGIpAtFpyzGM=w1491-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/647
+
 ## [v.3.26.0114.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601141-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi đăng nhập.
