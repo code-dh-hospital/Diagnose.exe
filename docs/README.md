@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0115.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601150-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cải tiến Diagnose - Xử lý lại, hạn chế lấy dữ liệu từ current.chidinhcls
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/103
+- 📕: Thêm thông tin madt, bhyt cho Entity
+- 📕: Mô tả [THAY_DOI_TOI_UU_DIAGNOSE](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/THAY_DOI_TOI_UU_DIAGNOSE.md)
+
+![](https://i.vgy.me/9rt8O8.png)
+
 ## [v.3.26.0114.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601142-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Sổ chẩn đoán hình ảnh => Bổ sung cột `[Tài khoản chỉ định]` trên lưới.
