@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601190-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose chức năng trả kết quả CLS (BV Thạnh Trị)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/698
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/700
+- 📕: Chỉnh query hàm lấy phim mặc định theo macls
+
+![](https://i.vgy.me/23qq9a.png)
+
 ## [v.3.26.0116.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601161-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose ghi nhận mã máy BYT mặc định theo Người thực hiện y lệnh và người đọc kết quả
 - ✨: Load danh mục mặc định theo Kho CLS, mã máy cấu hình nhân viên theo maloaicls
