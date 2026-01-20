@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Load danh sách mã máy cấu hình theo nhân viên kết hợp với cấu hình riêng PK Phương Nam trên Form bắt đầu thực hiện
+- ✨: Bổ sung cột mã loại CLS lên Form cấu hình mã máy theo nhân viên
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/613
+
+![](https://i.vgy.me/WXhk1C.png)
+
+![](https://i.vgy.me/XNHldJ.png)
+
 ## [v.3.26.0119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601190-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose chức năng trả kết quả CLS (BV Thạnh Trị)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/698
