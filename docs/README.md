@@ -6,6 +6,29 @@
 
 #
 
+## [v.3.26.0122.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601220-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose: BV Lấp Vò: Phần mềm không phục hồi được phim XQ khi chỉnh ngày kết quả CLS, Phim chưa được phục hồi do hủy kết quả #702
+	- Cập nhật:
+		- Điều kiện phục hồi tồn kho khi hủy kết quả.
+			- Tham số: ha.phuchoiphim = 1
+			- Tham số: ha.khophimxq = 1
+        
+		- Tồn kho trước khi trả kết quả
+
+		![](https://i.vgy.me/ve0kFr.png)
+		
+		- Tồn kho sau khi trả kết quả:
+
+		![](https://i.vgy.me/OLnaMr.png)
+		![](https://i.vgy.me/gedJaV.png)
+		
+		- Tồn kho sau khi hủy kết quả:
+
+		![](https://i.vgy.me/UCJK1W.png)
+		![](https://i.vgy.me/cdASHS.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/702
+
 ## [v.3.26.0120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601200-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Load danh sách mã máy cấu hình theo nhân viên kết hợp với cấu hình riêng PK Phương Nam trên Form bắt đầu thực hiện
 - ✨: Bổ sung cột mã loại CLS lên Form cấu hình mã máy theo nhân viên
