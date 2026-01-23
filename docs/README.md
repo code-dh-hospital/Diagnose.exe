@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.0123.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601230-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Chức năng Chọn mã máy thực theo nhân viên load thêm điều kiện Nhân viên có check Được thực hiện CLS
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/661
+
+- Mở chức năng Cấu hình mã máy theo Nhân viên
+
+![](https://files.catbox.moe/f0rmpu.png)
+
+- Load Danh sách nhân viên bao gồm các nhân viên được check thực hiện
+
+![](https://files.catbox.moe/n8d1v2.png)
+
+- Load thông tin lại trên Form Tra cứu kết quả
+
+![](https://files.catbox.moe/l7j38f.png)
+
 ## [v.3.26.0122.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601220-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose: BV Lấp Vò: Phần mềm không phục hồi được phim XQ khi chỉnh ngày kết quả CLS, Phim chưa được phục hồi do hủy kết quả #702
 	- Cập nhật:
