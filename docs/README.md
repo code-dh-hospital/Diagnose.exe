@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0126.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601260-NasDHSolutions.json)</sup></sup></sub>
+✨: Yêu cầu - Diagnose Chức năng Chọn mã máy thực theo nhân viên load thêm điều kiện Nhân viên có check Được thực hiện CLS
+- 🐛: Fix chưa set mặc định mã máy nếu bỏ trống không cấu hình theo Form cấu hình mới
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/661
+
+![](https://files.catbox.moe/8u89k6.png)
+
 ## [v.3.26.0123.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601230-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose Chức năng Chọn mã máy thực theo nhân viên load thêm điều kiện Nhân viên có check Được thực hiện CLS
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/661
