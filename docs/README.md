@@ -6,6 +6,34 @@
 
 #
 
+## [v.3.26.0127.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601271-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601271-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601271-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose: BV Lấp Vò: Phần mềm không phục hồi được phim XQ khi chỉnh ngày kết quả CLS, Phim chưa được phục hồi do hủy kết quả #702
+	- Cập nhật:
+		- Điều kiện phục hồi tồn kho khi hủy kết quả.
+			- Tham số: ha.phuchoiphim = 1
+			- Tham số: ha.khophimxq = 1
+        
+
+		![](https://files.catbox.moe/xzhwnr.gif)
+		
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/702
+<<<<<<< HEAD
+
+## [v.3.26.0127.0]()
+- 🐛: Lỗi - Diagnose: BV Lấp Vò: Phần mềm không phục hồi được phim XQ khi chỉnh ngày kết quả CLS, Phim chưa được phục hồi do hủy kết quả #702
+	- Cập nhật:
+		- Điều kiện phục hồi tồn kho khi hủy kết quả.
+			- Tham số: ha.phuchoiphim = 1
+			- Tham số: ha.khophimxq = 1
+        
+
+		![](https://files.catbox.moe/xzhwnr.gif)
+		
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/702
+=======
+
 ## [v.3.26.0126.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32601260-NasDHSolutions.json)</sup></sup></sub>
 ✨: Yêu cầu - Diagnose Chức năng Chọn mã máy thực theo nhân viên load thêm điều kiện Nhân viên có check Được thực hiện CLS
 - 🐛: Fix chưa set mặc định mã máy nếu bỏ trống không cấu hình theo Form cấu hình mới
