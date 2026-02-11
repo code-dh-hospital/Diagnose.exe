@@ -6,6 +6,49 @@
 
 #
 
+## [v.3.26.0211.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602110-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose: BV Lấp Vò: Phần mềm không phục hồi được phim XQ khi chỉnh ngày kết quả CLS, Phim chưa được phục hồi do hủy kết quả #702
+	- Cập nhật:
+		+ Bổ sung cấu trúc phục hồi phim X-Quang:
+		
+		```sql
+		DO $$ 
+			BEGIN
+				BEGIN
+					ALTER TABLE current.pshdxncls ADD COLUMN create_date TIMESTAMP WITHOUT TIME ZONE;
+				EXCEPTION
+					WHEN duplicate_column THEN RAISE NOTICE 'Cot <create_date> da co trong table <pshdxncls>.';
+				END;
+				BEGIN
+					ALTER TABLE current.pskhamha ADD COLUMN create_date TIMESTAMP WITHOUT TIME ZONE;
+				EXCEPTION
+					WHEN duplicate_column THEN RAISE NOTICE 'Cot <create_date> da co trong table <pskhamha>.';
+				END;
+			END;
+		$$;
+		```
+		
+		![](https://i.vgy.me/RS8pNq.png)
+
+		![](https://i.vgy.me/OayaA4.png)
+		![](https://i.vgy.me/bYzU3v.png)
+		![](https://i.vgy.me/nfBkjo.png)
+
+		+ Hủy kết quả:
+
+		![](https://i.vgy.me/rKGy3p.png)
+
+		+ Danh sách chờ phục hồi:
+
+		![](https://i.vgy.me/SXmFHp.png)
+
+		+ Lập phiếu lần 2:
+
+		![](https://i.vgy.me/Fj3dV5.png)
+		![](https://i.vgy.me/nZVYq1.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/702
+
 ## [v.3.26.0204.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602040-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cải tiến Diagnose - Xử lý lại, hạn chế lấy dữ liệu từ current.chidinhcls
 - 🐛: Fix lỗi null khi kiểm tra ngày ra ngoại trú
