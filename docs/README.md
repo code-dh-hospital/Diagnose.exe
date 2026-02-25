@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0225.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602250-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription Hỗ trợ cho chọn nhanh bộ ekipt khi lập phiếu Thủ thuật, Phẫu thuật #688
+	- Cập nhật:
+		
+		![](https://i.vgy.me/ZZ5zTS.png)
+		![](https://i.vgy.me/WDzRJt.png)
+		![](https://i.vgy.me/BNjXPc.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/688
+
 ## [v.3.26.0211.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32602110-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose: BV Lấp Vò: Phần mềm không phục hồi được phim XQ khi chỉnh ngày kết quả CLS, Phim chưa được phục hồi do hủy kết quả #702
 	- Cập nhật:
