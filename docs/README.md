@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.26.0317.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Hỗ tạo bộ ekip trả kết quả Chẩn đoán hình ảnh gồm Mã máy , Bác sĩ đọc kết quả, nhân viên thực hiện y lệnh #707
+	- Cập nhật:
+		+ Cập nhật cấu trúc:
+
+		![](https://i.vgy.me/1apggd.png)
+
+		+ Diagnose:
+
+		![](https://i.vgy.me/acYtxz.png)
+
+		![](https://i.vgy.me/ik6R5M.png)
+		![](https://i.vgy.me/rIMHH8.png)
+		![](https://i.vgy.me/q2V6Wu.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/707
+
 ## [v.3.26.0306.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603060-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription, Diagnose, Treatment Hỗ cấu hình Mã máy thực hiện theo bộ ekip khi lập phiếu Thủ thuật, Phẫu thuật #700
 	- Cập nhật Diagnose:
