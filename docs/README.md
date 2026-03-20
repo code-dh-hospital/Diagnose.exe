@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0320.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603201-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Hỗ tạo bộ ekip trả kết quả Chẩn đoán hình ảnh gồm Mã máy , Bác sĩ đọc kết quả, nhân viên thực hiện y lệnh #707
+	- Cập nhật:
+		+ Bổ sung fix sau khi hiển thị FORM BẮT ĐẦU THỰC HIỆN, mất vị trị CLS được chọn:
+
+		![](https://files.catbox.moe/cvkzs1.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/707
+
+## [v.3.26.0320.0]()
+- ✨: Yêu cầu - Diagnose Hỗ tạo bộ ekip trả kết quả Chẩn đoán hình ảnh gồm Mã máy , Bác sĩ đọc kết quả, nhân viên thực hiện y lệnh #707
+	- Cập nhật:
+		+ Bổ sung fix sau khi hiển thị FORM "BẮT ĐẦU THỰC HIỆN", mất vị trị CLS được chọn:
+
+		![](https://files.catbox.moe/cvkzs1.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/707
+
 ## [v.3.26.0317.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603170-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose Hỗ tạo bộ ekip trả kết quả Chẩn đoán hình ảnh gồm Mã máy , Bác sĩ đọc kết quả, nhân viên thực hiện y lệnh #707
 	- Cập nhật:
