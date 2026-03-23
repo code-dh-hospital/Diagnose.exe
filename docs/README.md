@@ -6,6 +6,34 @@
 
 #
 
+## [v.3.26.0323.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603230-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+
+	- Script:
+  
+	![](https://files.catbox.moe/xn5z49.png)
+
+	- Khi bật tham số: ekip_thuchien = 1, mới thực hiện được chức năng này
+  
+	![](https://files.catbox.moe/cs25mm.png)
+
+	![](https://files.catbox.moe/83lpyj.png)
+
+	- Chọn ê kíp cần thực hiện:
+
+	![](https://files.catbox.moe/5va670.png)
+
+	- Lưu sau khi chọn xong ê kíp:
+
+	  ![](https://files.catbox.moe/6eonrv.png)
+
+	- Thực hiện trả kết quả CLS:
+
+	  ![](https://files.catbox.moe/ijf9ie.png)
+	  ![](https://files.catbox.moe/whjpe8.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+
 ## [v.3.26.0320.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603201-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose Hỗ tạo bộ ekip trả kết quả Chẩn đoán hình ảnh gồm Mã máy , Bác sĩ đọc kết quả, nhân viên thực hiện y lệnh #707
 	- Cập nhật:
