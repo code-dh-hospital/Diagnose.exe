@@ -6,6 +6,41 @@
 
 #
 
+## [v.3.26.0401.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604010-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+	- Cập nhật:
+		- Không cho phép lập phiếu PTTH trước khi lưu kết quả CĐHA: khi tham số ekip_thuchien = 1 và CLS đã trả kết quả --> chọn được thao tác lập phiếu PT-TT:
+
+		![](https://i.vgy.me/lKCGX2.png)
+		![](https://i.vgy.me/mlHEOu.png)
+
+		- Trả kết quả CHĐA:
+
+		![](https://i.vgy.me/Vva3h9.png)
+
+		- Lập PT-TT: các thông tin tự động lấy từ kết quả CĐHA: 
+			- PT/TT lúc (lấy ngày thực hiện y lệnh),
+			- Xong lúc: (lấy theo ngày kết quả),
+			- Chẩn đoán trước, sau PT/TT: lấy theo chuẩn đoán chính của phần CĐHA.
+			- Danh sách ekip cũng lấy tự động.
+
+		![](https://i.vgy.me/qhWLHB.png)
+
+		- Người dùng có thể thêm nhân viên vào ekip: thêm từng người hoặc chọn từ danh sách
+
+		![](https://i.vgy.me/QidOLb.png)
+
+		- Xem lại phiếu PT-TT đã lập:
+
+		![](https://i.vgy.me/92pRh0.png)
+
+		- Kiểm tra nguoi_thuc_hien trong bảng xml130.bang3
+		
+		![](https://i.vgy.me/oGw8bA.png)
+		
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+
 ## [v.3.26.0323.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32603230-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
 
