@@ -6,6 +6,33 @@
 
 #
 
+## [v.3.26.0403.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604030-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+	
+	- Cập nhật: Lập PT-TT tạm: load tự động ekip đã chọn từ file
+
+- Chọn form thực hiện: chọn ekip thực hiện
+
+![](https://i.vgy.me/6HWlTl.png)
+	
+- Ghi file tạm và thư mục TAM:
+	
+   time = ngaykcb.ToString("yyyyMMdd_HHmmss")
+
+   tenfile = ekip_{mabn}_{makb}_{maba}_{macls}_{time}.json
+
+![](https://i.vgy.me/bxSVdT.png)
+
+- Trả kết quả: 
+
+  ![](https://i.vgy.me/85ZEUd.png)
+
+- Ekip được load từ file tạm.
+
+  ![](https://i.vgy.me/Aox723.png)
+
+  Lưu thành công xóa file tạm713
+
 ## [v.3.26.0401.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604010-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
 	- Cập nhật:
