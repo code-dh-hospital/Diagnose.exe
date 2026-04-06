@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0406.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604060-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+	
+	- Cập nhật: Rebuild
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+
 ## [v.3.26.0403.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604031-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
 	
