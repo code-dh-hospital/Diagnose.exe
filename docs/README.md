@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.0422.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604220-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+	
+	- Cập nhật:
+		- Hủy kết quả và xóa phiếu phẫu thuật, ê kíp với với pt-tt tạm
+		![](https://i.vgy.me/Zg6ZZl.png)
+		![](https://i.vgy.me/TUPHkj.png)
+
+		- Lập phiếu pt-tt mới
+		![](https://i.vgy.me/JlZhph.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+
 ## [v.3.26.0406.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604061-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
 	
