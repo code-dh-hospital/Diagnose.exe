@@ -6,6 +6,28 @@
 
 #
 
+## [v.3.26.0428.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604280-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+	
+	- Cập nhật:
+		- Hỗ trợ lưu nhanh phiếu pt-tt tạm 
+		
+		![](https://files.catbox.moe/x02f3v.gif)
+		
+		- Khi cần điều chỉnh:
+
+		![](https://i.vgy.me/4un3qJ.png)
+
+		- Hỗ trợ load ekip có sẵn khi lập phiếu pt-tt có phân loại cận lâm sàng
+
+		![](https://files.catbox.moe/7k4wlt.gif)
+
+		- Khi cần điều chỉnh:
+
+		![](https://i.vgy.me/4un3qJ.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+
 ## [v.3.26.0424.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604241-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604241-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32604241-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Labolatory - Diagose: Up load file lên bucket không được- Lỗi
 - 🐛:  ***Chỉnh lỗi  không upload được các file pdf (do Google yêu cầu phải billing bucket). Xử lý chuyển qua hệ thống VPS của DH (https://pocketbasedh.dpdns.org).***
