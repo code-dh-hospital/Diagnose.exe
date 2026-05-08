@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0508.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605081-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose: Phiếu kết quả CLS có thêm chữ ký số bác sĩ chỉ định (triển khai CKS cá nhân)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/738
+- 📗: Mô tả : https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/BO_SUNG_CHU_KY_SO_KET_QUA_CDHA.md
+
+- Bổ sung para để ký số bác sĩ chỉ định
+![](https://i.vgy.me/snHPHh.png)
+
+- Bổ sung upload PDF xem kết quả Online
+![](https://i.vgy.me/TqLNyl.png)
+
 ## [v.3.26.0508.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605080-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
 	
