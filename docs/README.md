@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.0508.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605080-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+	
+	- Cập nhật: Fix lỗi 
+		- Diagnose Sau khi Lưu kết quả và lập phiếu TT/PL xong thì bên Prescription chưa cập nhật được trạng thái đã lập phiếu TT/PT (Vẫn còn màu trắng)
+		- Prescription Sổ Thủ thuật, sổ Phẫu thuật khi chọn báo cáo theo ngày không load được các trường hợp đã lập phiếu TT/PT bên Diagnose. Phải chọn Tất cả mới có thông tin bệnh nhân trên sổ và bấm chọn lại theo ngày mới thấy được
+		
+		![](https://i.vgy.me/jXkazC.png)
+		![](https://i.vgy.me/GOP6HJ.png)
+		![](https://i.vgy.me/sOOp28.png)
+		![](https://i.vgy.me/lWxayi.png)
+
+		P/s: Sổ PT-TT chỉ load CLS có phân loại
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+
 ## [v.3.26.0505.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605050-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Labolatory - Diagose: Up load file lên bucket không được- Lỗi
 - 🐛:  ***Cập nhật lỗi không upload pdf lên VPS DH.***
