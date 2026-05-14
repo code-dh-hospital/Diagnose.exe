@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.0514.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605140-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose không vào được chức năng thiết kế mẫu kết quả (PK Minh Quang)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/850
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/738
+- 📕: Fix lỗi khi đăng nhập tài khoản quản trị nhưng bị set lại tài khoản nhân viên trực khi mở các Form CĐHA
+
+![](https://i.vgy.me/NSeQZh.png)
+
+
+- ✨: Yêu cầu - Diagnose/Laboratory: Bổ sung cảnh báo/chặn khi lưu kết quả nếu không nhập mã máy thực hiện
+- 🐛: Fix lỗi lần đầu mở Form kết quả lên nếu không chọn mã máy sẽ phát sinh lỗi
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/767
+- 📕: Điều chỉnh hàm CheckMaMay sử dụng toVString để trả về chuỗi rỗng nếu người dùng không chọn mã máy
+
+![](https://i.vgy.me/A5D2TY.png)
+
 ## [v.3.26.0513.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605131-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung chặn khi lưu kết quả nếu không nhập mã máy thực hiện theo mô tả [Quan-tri-Admin/BO_SUNG_THONG_TIN_NHAP_MA_MAY_PTTT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Quan-tri-Admin/BO_SUNG_THONG_TIN_NHAP_MA_MAY_PTTT.md)
