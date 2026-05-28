@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.0528.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605280-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi 
+	- 1. Diagnose Sau khi LƯU kết quả Siêu âm (Lúc bấm nút Bắt đầu thực hiện đã chọn ekipt trả kết quả) và chọn => Lập ekip thực hiện và lưu lại. Sau đó vào lại nút Lập ekip thực hiện=> Hủy phiếu. Thì lúc này bên Prescription xem lại Phẫu thuật thì vẫn còn màu hồng (các thông tin khác đã xóa trống ok)
+
+	 ![](https://i.vgy.me/Hpwm9o.png)
+	 ![](https://i.vgy.me/vp61HS.png)
+	 ![](https://i.vgy.me/4K4hEX.png)
+	 ![](https://i.vgy.me/JCWSAo.png)
+
+	- 3. Diagnose=> Form Chọn nhân viên chẩn đoán: Khi người dùng nhập tên để tìm và bấm Enter thì báo mã nhân viên này đã Tồn tại. Người dùng phải bấm bỏ qua và chọn lại tên vừa nhập
+
+	![](https://i.vgy.me/D46tFV.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+
 ## [v.3.26.0525.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32605250-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi bắt sai số phút tối thiểu theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md).
