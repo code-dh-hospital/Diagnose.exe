@@ -6,6 +6,44 @@
 
 #
 
+## [v.3.26.0603.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606031-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+
+	- Fix lỗi Quên chưa lập phiếu PTTT đối với CLS có phân loại, đã in phiếu 6556 để kết thúc khám, vào form lập phiếu PTTT thì vẫn cho lưu.
+
+	![](https://i.vgy.me/rFEl5e.gif)
+
+	- Fix Khách hàng sử dụng tham số thuchiencls_phieu01: Kiểm soát thực hiện trả kết quả cận lâm sàng (Xét nghiệm/Chẩn đoán hình ảnh/Thăm dò chức năng) người bệnh BHYT sau khi đã in phiếu quyết toán 01/KBCB - 6556 (hoặc đối với bệnh án đã xuất viện) . BN đã in phiếu 6556 để kết thúc khám, vào form chẩn đoán để nghị bắt luôn ngay khi bấm nút Chỉnh phải cảnh báo liền cho người dùng biết, hiện tại vẫn cho nhấn nút Chỉnh, đến lúc lưu mới cảnh báo lên, phiền người dùng phải nhập nội dung rồi mới cảnh báo. Mục đích để cải thiện thao tác người dùng.
+
+	![](https://i.vgy.me/y1AABj.png)
+
+	- Lấy đồng bộ danh sách ekip form thực hiện và form pt-tt
+
+	![](https://i.vgy.me/nAhcRz.png)
+	![](https://i.vgy.me/qZuOJt.png)
+	
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+<<<<<<< HEAD
+
+## [v.3.26.0603.0]()
+- 🐛: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+
+	- Fix lỗi Quên chưa lập phiếu PTTT đối với CLS có phân loại, đã in phiếu 6556 để kết thúc khám, vào form lập phiếu PTTT thì vẫn cho lưu.
+
+	![](https://i.vgy.me/rFEl5e.gif)
+
+	- Fix Khách hàng sử dụng tham số thuchiencls_phieu01: Kiểm soát thực hiện trả kết quả cận lâm sàng (Xét nghiệm/Chẩn đoán hình ảnh/Thăm dò chức năng) người bệnh BHYT sau khi đã in phiếu quyết toán 01/KBCB - 6556 (hoặc đối với bệnh án đã xuất viện) . BN đã in phiếu 6556 để kết thúc khám, vào form chẩn đoán để nghị bắt luôn ngay khi bấm nút Chỉnh phải cảnh báo liền cho người dùng biết, hiện tại vẫn cho nhấn nút Chỉnh, đến lúc lưu mới cảnh báo lên, phiền người dùng phải nhập nội dung rồi mới cảnh báo. Mục đích để cải thiện thao tác người dùng.
+
+	![](https://i.vgy.me/y1AABj.png)
+
+	- Lấy đồng bộ danh sách ekip form thực hiện và form pt-tt
+
+	![](https://i.vgy.me/nAhcRz.png)
+	![](https://i.vgy.me/qZuOJt.png)
+	
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+=======
+
 ## [v.3.26.0602.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606020-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi không kiểm soát thời gian theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md).
