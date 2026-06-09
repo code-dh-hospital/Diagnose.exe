@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0609.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606091-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose bổ sung kết nối PACS theo cách mới với Savina (Loại bỏ cách kết nối cũ hiện tại của phòng khám) #799
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/799
+- 📕: Bổ sung ghi log hl7Message khi gửi PACS
+
 ## [v.3.26.0609.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606090-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose bổ sung kết nối PACS theo cách mới với Savina (Loại bỏ cách kết nối cũ hiện tại của phòng khám) #799
 - 🐛: Diagnose.exe v.3.26.0608.0 đã hiển nút Hủy và Gửi PACS nhưng khi chọn bệnh nhân và bấm Gửi hoặc hoặc hủy không có cảnh báo và chưa gởi được qua PACS (Thao tác trực tiếp tại đơn vị).
