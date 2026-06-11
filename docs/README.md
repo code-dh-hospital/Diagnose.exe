@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0611.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606112-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose bổ sung kết nối PACS theo cách mới với Savina (Loại bỏ cách kết nối cũ hiện tại của phòng khám) #799
+- ✨: ghi log kết quả nhận được từ PACS
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/799
+
 ## [v.3.26.0611.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606111-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose bổ sung kết nối PACS theo cách mới với Savina (Loại bỏ cách kết nối cũ hiện tại của phòng khám) #799
 - 🐛: Chưa xem được hình ảnh PACS
