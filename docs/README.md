@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0618.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606180-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose ghi nhận sai Bác sĩ đọc kết quả khi Chọn nhân viên chẩn đoán khi không đăng xuất phần mềm #891
+![](https://i.vgy.me/kDbkgh.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/891
+
 ## [v.3.26.0612.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32606121-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose bổ sung kết nối PACS theo cách mới với Savina (Loại bỏ cách kết nối cũ hiện tại của phòng khám) #799
 - ✨: Loại bỏ ghi log kết quả PACS
