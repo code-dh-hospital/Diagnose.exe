@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0715.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607151-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose bổ sung chức năng gởi hình Siêu âm, Điện tim, Nội Soi qua PACS Savina #812
+	- Cập nhật phần:
+		Yêu cầu 1. Mở thêm chức năng Load kết quả từ PACS (Hiện tại chưa có)
+
+		![](https://i.vgy.me/43H3Ds.gif)
+		Trao đổi: @hvtuan Em test nội dung (1) trước để kịp tiến độ
+
+		Yêu cầu 2. (Tiếp tục cập nhật) Yêu cầu hỗ trợ thêm chức năng gởi hình Siêu âm, Nội soi, Điện Tim sang PACS Savina: Mô tả lại cách thức ghi log và đang hoàn thiện
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/812
+
 ## [v.3.26.0715.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607150-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi vào form `Cấu hình máy` tại module `Diagnose`.
