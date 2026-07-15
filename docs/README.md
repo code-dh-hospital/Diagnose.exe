@@ -6,6 +6,34 @@
 
 #
 
+## [v.3.26.0715.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607153-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607153-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607153-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose bổ sung chức năng gởi hình Siêu âm, Điện tim, Nội Soi qua PACS Savina #812
+
+    ## ✅  **Cập nhật mô tả** ✅
+
+	 [DIAGNOSE/Vuong_mota_gui_HA_SA_DT_Pacs_Savina.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/DIAGNOSE/Vuong_mota_gui_HA_SA_DT_Pacs_Savina.md)
+	
+	- Cập nhật: Yêu cầu hỗ trợ thêm chức năng gởi hình Siêu âm, Nội soi, Điện Tim sang PACS Savina
+	
+	![](https://i.vgy.me/hVE0dl.png)
+	![](https://i.vgy.me/gDD171.png)
+	![](https://i.vgy.me/untHAW.png)
+
+	TEST hình ảnh base64:
+
+	![https://i.vgy.me/1eZGCl.png]
+	![](https://i.vgy.me/BNDPJt.png)
+	![](https://i.vgy.me/vdqtSJ.png)
+
+	- Cập nhật log:
+	- Thư mục cài đặt phần mềm DHG.Hospital\Log
+      - Tên Log: error_[ngày]: mỗi ngày 1 log (nếu có)
+      - Nội dung log:
+ 
+  ![](https://i.vgy.me/ztJ9C9.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/812
+
 ## [v.3.26.0715.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607152-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607152-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607152-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose bổ sung chức năng gởi hình Siêu âm, Điện tim, Nội Soi qua PACS Savina #812
 	- Fix lỗi khi mở form điện tim
