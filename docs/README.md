@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0715.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607150-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi vào form `Cấu hình máy` tại module `Diagnose`.
+![](https://lh3.googleusercontent.com/pw/AP1GczPSIhLh15KDr0WrnORmxtZueLg7VcfPMxV7A4glxteeJexIkoXD1QlAeNUsK459jCtf8-PEa4t2vx63NHd2R3sFzKhxwLAhwgSbxA5xWKNYrocfqTCKhQoxZeFD_7V6mTzlRzP3uNHn3bLc2xA_jymP=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/922#issuecomment-30801
+
 ## [v.3.26.0713.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607130-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Sử dụng UserControl `MaMayControl` cho phép chọn nhiều mã máy khi thực hiện CLS.
