@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0722.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607221-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Diagnose không lấy được mã máy mặc định theo cấu hình khi bấm vào nút Chẩn đoán #930
+- 🐛: Chức năng Cấu hình mã máy theo nhân viên: thêm điều kiện lấy theo loại cận lâm sàng
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/930
+
 ## [v.3.26.0722.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607220-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose không lấy được mã máy mặc định theo cấu hình khi bấm vào nút Chẩn đoán #930
 - 🐛: Cấu hình mã máy theo nhân viên, Điện tim và XQuang chưa lấy được mã mãy mặc định theo cấu hình
