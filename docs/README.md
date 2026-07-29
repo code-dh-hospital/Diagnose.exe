@@ -6,6 +6,71 @@
 
 #
 
+## [v.3.26.0729.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607291-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose cảnh báo hoặc chặn khi bấm nút Chẩn đoán nếu chưa Gửi PACS #861
+	- Cập nhật:
+	- Thêm tham số:
+
+	![](https://i.vgy.me/J4Yc1e.png)
+
+	```sql
+		DO $$
+		DECLARE
+			tents TEXT := 'pacs.savina.canhbaothuchiencls';
+			ts_noidung TEXT := E'PACS SAVINA: Cảnh báo hoặc chặn theo kho cấu hình, khi thực hiện CLS nếu chưa gửi PACS.';
+    
+			ts_giatri TEXT := 
+				E'- canhbao:\n'
+				|| E'    0: Không sử dụng\n'
+				|| E'    1: Cảnh báo\n'
+				|| E'    2: Chặn\n'
+				|| E'- kho: kho CLS cần cảnh báo/chặn\n';
+
+			diengiai TEXT := '';
+			giatri TEXT := 'canhbao:0|kho:HA;CN';
+			loai TEXT := '0';
+			module TEXT := '0';
+		BEGIN
+			diengiai := ts_noidung
+						|| E'\n\nCú pháp giá trị mẫu:\n'
+						|| giatri
+						|| E'\n\nGiải thích:\n'
+						|| ts_giatri;
+
+			EXECUTE format($f$
+				INSERT INTO current.system (id, tents, diengiai, giatri, loai, module)
+				SELECT (SELECT COALESCE(MAX(id),0) + 1 FROM current.system),
+					   %L, %L, %L, %L, %L
+				WHERE NOT EXISTS (
+					SELECT 1 FROM current.system WHERE UPPER(tents) = UPPER(%L)
+				);
+			$f$, tents, diengiai, giatri, loai, module, tents);
+
+		EXCEPTION
+			WHEN unique_violation THEN
+				NULL;
+			WHEN OTHERS THEN
+				RAISE NOTICE 'Error executing insert for %: %', tents, SQLERRM;
+		END
+		$$;
+
+	```
+	- canhbao:0
+
+	![](https://i.vgy.me/Az4TQn.gif)
+
+	- canhbao:1
+
+	![](https://i.vgy.me/EEQiiA.gif)
+
+	- canhbao:2
+
+	![](https://i.vgy.me/BCnTfz.gif)
+
+	- kho:`HA;CN` : kho cận lâm sàng cần cảnh báo/chặn nhập cách nhau bởi dấu `;`
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/861
+
 ## [v.3.26.0729.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607290-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Diagnose: In phiếu kết quả ký số không in được chữ ký số (PK Minh Quang) #948
 ![](https://i.vgy.me/ixq4yX.png)
