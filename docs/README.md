@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0813.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608130-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng cảnh báo/chặn trùng mã máy thực hiện cận lâm sàng theo mô tả [THAM_SO_HE_THONG/Kiem-soat-trung-ma-may-thuc-hien.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-trung-ma-may-thuc-hien.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczPRLLgQ02SPeFP9MSgrRO2ro1Ioob5GV1xFm1CfeZRY3z-Mb-Zy3DqkEIYq0jBdGdcvH2XYVDB95bvrfIr2PevDTAPKiFNgHmeyZSsEyYOOv-_faghDSEk2GoEiJg06vNqeXGEB_rQtQD_ekIBnvuMa=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/870#issuecomment-32585 (hdhiswork/YEUCAU#870)
+
 ## [v.3.26.0729.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32607291-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose cảnh báo hoặc chặn khi bấm nút Chẩn đoán nếu chưa Gửi PACS #861
 	- Cập nhật:
