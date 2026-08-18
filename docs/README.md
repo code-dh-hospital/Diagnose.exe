@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0818.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608180-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Hỗ trợ mẫu nội soi cho lấy 8 ảnh thuộc loại NS1 theo mô tả [CHANDOANHINHANH/So-luong-anh-maloai-NS1.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/So-luong-anh-maloai-NS1.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczNNm5CkAXoD1dxMA-ZjZ95Xq2m1iaApF6sYlt6uLbpsylcJaZKQuODZX50qe72C2IRxax_nS4E9Qkl5yjwTRL4NdicZnplzQDGfk0SJ1YbCf8_DU9Aw_zrYBHLE1uQyJG2OBWqZtdBIrxPdiOEdJj02=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNp8be63Xh5zJm98vS3iU_6m49MwZ9IHIwPF-B4vGVwSL-6y0I4hRB5SzhG85fQXuBDskGRdGDpVaN_hwS3c4EKWAhrlK72z0Az5ijjafk4fbFZoqfd4N__04beTTchiFmlH-FRdPWH1wmEGLkvnE2X=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOfZjelPyUqqbZqsJlVnUiVHrLQwiMw50n-sqrI_eehZn58xtKf4GRO0vgfpl61UdI0HSBauybTkSdielifHZYeroB6ZjzvYLmrymUOGLmgR5Jn-3McjEstOuTr_njLXmnAi15jUuosPuT2rH5u-NBm=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczONnQyGMV6cYvKKhFcY6H2cHuCXoDJKerIdrkiKQkQWRz3L-paRoeFG4qXgbYPF_dEJX98CR_Cso-yUIDfcm-P_u3xkVPAhsyUqiaiUZwGri5vQMRz2a8tdx2vyyYc4wqd1KOrVELwsq--ug4-e-rFJ=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/872#issuecomment-32937 (hdhiswork/YEUCAU#872)
+
 ## [v.3.26.0813.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608130-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung chức năng cảnh báo/chặn trùng mã máy thực hiện cận lâm sàng theo mô tả [THAM_SO_HE_THONG/Kiem-soat-trung-ma-may-thuc-hien.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-trung-ma-may-thuc-hien.md).
