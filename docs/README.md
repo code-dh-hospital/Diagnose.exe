@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0822.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608220-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Form chọn ảnh từ thư mục: cho phép chọn tối đa 8 (CLS có loại là NS1) ảnh theo mô tả: [CHANDOANHINHANH/So-luong-anh-maloai-NS1.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/So-luong-anh-maloai-NS1.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczN7Y7bDRo5U9NYy6Q49Nt6nHpYcKhZ2T4St2DxcJHciOmRzoAiK7eDrWFEhxvMeUqVzXAFd7mN8ZyjZ4wdMW2B8on5PDsRYP-8I-vabo3xFpTrgO0b4cZpgbp6zKcA9p6MA6c8I1m0Uzm-DDoakeLMy=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN9PcmaOtr8JVS86N3gc3lDW0f0D7S7Xf8Y5bvoSFzP3HjUa6thrUAUQyJjInaeE7hEd5MNBxdEZYOHd1ZdK2rrw2xudHJEHLtNnqc-SbhAOLI0isv1wWcCLrAVrt8_gmx200A3-OqxPL_2hNcha_jb=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/872#issuecomment-33484 (hdhiswork/YEUCAU#872)
+
 ## [v.3.26.0818.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608180-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Hỗ trợ mẫu nội soi cho lấy 8 ảnh thuộc loại NS1 theo mô tả [CHANDOANHINHANH/So-luong-anh-maloai-NS1.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/So-luong-anh-maloai-NS1.md).
