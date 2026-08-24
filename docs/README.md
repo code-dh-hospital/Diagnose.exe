@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0824.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608240-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi CLS BHYT không thanh của người bệnh BHYT bị cảnh báo không cho thực hiện.
+![](https://lh3.googleusercontent.com/pw/AP1GczMfXsEx8TgfH6LZWsAjFpvDqEWaCRVJ58JumQXwNDcDPq1NWmdmJoE4WckNvjD50fd1sTtjHET5da7oFzUrIjdzlOfGrnXKuIizAzjpj9viCpIO9BEc1OL4v2x3FKkjnHl6VHsR0Ey_w5qa63rj6VlC=w1661-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/978#issuecomment-33818 (hdhiswork/LOI#978)
+
 ## [v.3.26.0822.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32608220-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Form chọn ảnh từ thư mục: cho phép chọn tối đa 8 (CLS có loại là NS1) ảnh theo mô tả: [CHANDOANHINHANH/So-luong-anh-maloai-NS1.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/So-luong-anh-maloai-NS1.md).
