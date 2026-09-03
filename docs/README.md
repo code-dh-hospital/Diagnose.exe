@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0903.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609033-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609033-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609033-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi không load được mã máy đã cấu hình khi thực hiện trả kết quả.
+![](https://lh3.googleusercontent.com/pw/AP1GczNzVn5z3uNVNcTWqCUH1oCJ6oqalXEzMpXEY8oY8YjSaSh5qo3Pha97WLO3YefO0ZqNz0PQ-wrfGC-bnDSlBUH-8McW7dekobtZ_18yUsrclTI6p9Gnw9m5dH_9piHdw1WTDKnTVOhu_pokWZ_zxcrj=w1661-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/934#issuecomment-34068 (hdhiswork/LOI#934)
+
 ## [v.3.26.0903.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609032-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Diagnose & Utilities.Executable, DH.PublicCLS] Tích hợp gửi chỉ định CĐHA sang ECO PACS (HL7 v2.7 OMI^O23): Chuẩn hóa luồng lấy bác sĩ chỉ định từ current.chidinhcls.manv, xử lý ca chỉ định tự do / bệnh nhân tự đến (manv = TD), tự động ánh xạ 9 chủng loại máy OBR-24 (CT, MR, DX, US, ES, ED, ECG, EEG, OT) đồng bộ toàn diện theo chuẩn chung của các hệ thống PACS (Vĩnh Phát, Savina HL7, Tam Phúc, HL7 FHIR), cập nhật tên bác sĩ chỉ định sang ORC-12.2 ({MaBS}^{TenBS}) theo đặc tả API HL7 ver 1.9 (03/09/2026).
 - 🐛: [Diagnose & Utilities.Executable, DH.PublicCLS] Khắc phục triệt để lỗi thiếu tên bác sĩ chỉ định (chuyển sang ORC-12.2) và sai lệch mã loại máy OBR-24 khi gửi PACS; loại bỏ câu query sai vào benhan_khoadieutri/khambenh khi manv rỗng.
