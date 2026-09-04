@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0904.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609042-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609042-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609042-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Statistics, Diagnose, Laboratory, Reports] Tích hợp `LibraryApp.ClsBanQuyen.ApplyMainForm` tại `FrmDiagnose_Load` (Diagnose.exe -> DH.HIS Diagnose), `FrmLaboratory_Load` (DH.Laboratory.exe -> DH.HIS Laboratory), và `FrmReports_Load` (Reports.exe -> DH.HIS Reports), tự động đổi tiêu đề phân hệ, nạp ảnh nền `background_dh.png`, cập nhật bản quyền DH và ẩn menu/group trợ giúp khi `DHHIS_BANQUYEN=1`.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/34
+- 📗: Độc lập 100% CSDL PostgreSQL, không dùng `current.system`.
+- 📕: Thực hiện theo mô tả [Bổ sung key chức năng riêng quản lý nâng cấp version DHG.Hospital thành DH.HIS](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHUC-NANG-RIENG/DUAN34_NangCap_Version_DHHIS_BanQuyen.md).
+![](https://images-worker.tlt22.workers.dev/i/01a06c38-61c3-7158-949d-2a79c7820a33)
+![](https://images-worker.tlt48.workers.dev/i/01a06c56-7c24-7eaa-852d-0a993b4f9c7c)
+![](https://images-worker.tlt21.workers.dev/i/01a06c56-4f43-7c4a-b6d7-2a36d7c4ae6e)
+
 ## [v.3.26.0904.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609041-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Diagnose & DH.ReportCLS] Bổ sung parameter dhsemr_admissionaode (và alias dhsemr_admissioncode) luôn luôn nhận giá trị mã khám bệnh thực tế (makb) vào báo cáo DevExpress XtraReport phiếu in kết quả CĐHA (printXtraPhieuKetQua và printXQUANG).
 - 🐛: [Diagnose & DH.ReportCLS] Khắc phục lỗi phiếu kết quả CĐHA cho bệnh nhân nội trú/BANT bị ghi đè parameter makb thành maba, dẫn đến mã QR Code tra cứu hồ sơ kết quả EMR (https://patient.bvdkomon.dhsc.vn/?AdmissionCode={0}) nhận nhầm maba thay vì makb. Giữ nguyên logic cũ của parameter makb để đảm bảo 100% tương thích ngược.
