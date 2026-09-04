@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0904.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609040-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose & DH.ReportCLS] Bổ sung parameter dhsemr_admissionaode (và alias dhsemr_admissioncode) luôn luôn nhận giá trị mã khám bệnh thực tế (makb) vào báo cáo DevExpress XtraReport phiếu in kết quả CĐHA (printXtraPhieuKetQua và printXQUANG).
+- 🐛: [Diagnose & DH.ReportCLS] Khắc phục lỗi phiếu kết quả CĐHA cho bệnh nhân nội trú/BANT bị ghi đè parameter makb thành maba, dẫn đến mã QR Code tra cứu hồ sơ kết quả EMR (https://patient.bvdkomon.dhsc.vn/?AdmissionCode={0}) nhận nhầm maba thay vì makb. Giữ nguyên logic cũ của parameter makb để đảm bảo 100% tương thích ngược.
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/155
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/22
+- 📕: [Diagnose & DH.ReportCLS] Phục vụ cấu hình in mã QR Code tra cứu kết quả hồ sơ EMR trực tuyến trên mẫu phiếu in Chẩn đoán hình ảnh (X-Quang, Siêu âm, Nội soi, CT...) tại TTYT KV Ô Môn.
+- Thực hiện theo mô tả [BỔ SUNG PARAMETER DHSEMR_ADMISSIONAODE TRUYỀN MAKB VÀO PHIẾU KẾT QUẢ CĐHA](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thong-mo-ta-bo-sung-para-dhsemr_admissionaode-in-phieu-ket-qua-cls.md)
+
 ## [v.3.26.0903.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609034-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609034-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609034-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Thực hiện theo mô tả [THAM_SO_HE_THONG
   /Hau-mota-them-thamso-cauhinh_phong_cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Hau-mota-them-thamso-cauhinh_phong_cls.md)
