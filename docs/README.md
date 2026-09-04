@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0904.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609043-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609043-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609043-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose & Statistics] Tích hợp `LibraryApp.ClsBanQuyen.ApplyMainForm` tại `FrmDiagnose_Load` và tự động nạp `background_dh` qua `Utilities.Forms.FrmHome`, tự động đổi tiêu đề thành `DH.HIS Diagnose`, nạp ảnh nền `background_dh.png` ngay từ bước khởi động ban đầu, cập nhật bản quyền DH và tự động quét ẩn nhóm Trợ giúp (expMain.Groups["Help"]) khi `DHHIS_BANQUYEN=1`.
+- 🐛: Khắc phục việc menu Trợ giúp chưa bị ẩn trên Janus ExplorerBar và ảnh nền FrmHome phải đợi sau khi đăng nhập mới hiển thị.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/34
+- 📗: Độc lập 100% CSDL PostgreSQL, không dùng `current.system`.
+- 📕: Thực hiện theo mô tả [Bổ sung key chức năng riêng quản lý nâng cấp version DHG.Hospital thành DH.HIS](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHUC-NANG-RIENG/DUAN34_NangCap_Version_DHHIS_BanQuyen.md).
+![](https://images-worker.tlt49.workers.dev/i/01a06c64-dac1-7f68-9176-ce5e0d13b1c3)
+![](https://images-worker.tlt16.workers.dev/i/01a06c6e-d40b-7700-8ef1-7a96cf42bfae)
+
 ## [v.3.26.0904.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609042-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609042-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609042-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Statistics, Diagnose, Laboratory, Reports] Tích hợp `LibraryApp.ClsBanQuyen.ApplyMainForm` tại `FrmDiagnose_Load` (Diagnose.exe -> DH.HIS Diagnose), `FrmLaboratory_Load` (DH.Laboratory.exe -> DH.HIS Laboratory), và `FrmReports_Load` (Reports.exe -> DH.HIS Reports), tự động đổi tiêu đề phân hệ, nạp ảnh nền `background_dh.png`, cập nhật bản quyền DH và ẩn menu/group trợ giúp khi `DHHIS_BANQUYEN=1`.
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/34
