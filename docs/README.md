@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0922.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609220-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Tích hợp `DH.ReportCLS v3.26.0921.0` — sửa lỗi phiếu kết quả MRI không hiển thị chữ ký scan bác sĩ (`loaiphieu == 6` → `loaiphieu == 7` trong `ClsHinhAnh.printXtraPhieuKetQua`)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1016
+- 📗: DB: `duc_so10_kyscan` — bảng `current.chidinhcls`, `current.benhan_khoadieutri`, cột `ha.chukymri`
+- 📕: Form `XtraPhieuCongHuongTu_MRI_design` — in phiếu kết quả MRI loại 7, hiển thị chữ ký scan bác sĩ chẩn đoán
+
 ## [v.3.26.0911.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609110-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp cấu hình BuildZip|AnyCPU (xuất bin\BuildZip) + Pre/PostBuildEvent gọi visualstudio-external-tool.js; nhận Resources/DH.ModuleClient.exe bản mới tự động qua syncModuleClientExe khi build DH.ModuleClientV2
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/845
