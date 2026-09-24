@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0924.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609240-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Utilities.Executable] Chuẩn hóa kích thước Form 1344x688 và tối ưu tỷ lệ co giãn cho màn hình lớn khi trả kết quả CLS Chụp CT (FrmChupCT).
+- 🐛: [Utilities.Executable] Sửa lỗi bể form giao diện FrmChupCT: co cụm kích thước (1231x641), ẩn combobox Bệnh lý và điều khiển Mã máy, nút thanh đáy bị đè lấn 77px, lệch nhãn thông tin bệnh nhân.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1007
+- 📗: Không thay đổi cấu trúc CSDL; liên kết dữ liệu kết quả qua bảng current.pskhamha và danh mục máy current.dmthietbi_yte.
+- 📕: Vào Cận lâm sàng -> Chụp CT: form mở chuẩn kích thước 1344x688, hiển thị đầy đủ Bệnh lý và Mã máy, cụm nút bấm thanh đáy thông thoáng không bị đè lấn.
+- Thực hiện theo mô tả [SỬA LỖI BỂ FORM GIAO DIỆN TRẢ KẾT QUẢ CLS CHỤP CT (DIAGNOSE - FRMCHUPCT)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Mo-ta-fix-loi-giao-dien-chup-ct-1007.md)
+
+![](https://pacuujokpkfteaofgkkd.supabase.co/storage/v1/object/public/vuongdh-his-project/issues/issue-1007/debug-image-diagnose-frmchupct-maximized.png)
+![](https://pacuujokpkfteaofgkkd.supabase.co/storage/v1/object/public/vuongdh-his-project/issues/issue-1007/debug-image-diagnose-frmchupct-normal.png)
+
 ## [v.3.26.0922.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609220-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Tích hợp `DH.ReportCLS v3.26.0921.0` — sửa lỗi phiếu kết quả MRI không hiển thị chữ ký scan bác sĩ (`loaiphieu == 6` → `loaiphieu == 7` trong `ClsHinhAnh.printXtraPhieuKetQua`)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1016
