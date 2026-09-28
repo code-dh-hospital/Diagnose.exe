@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0928.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609280-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose] Đồng bộ và build lại phân hệ Diagnose (Diagnose.exe) nhận định chuẩn thứ tự số nguyên cố định của LoaiPhieuKySoEnum từ OTH.Entity bản mới, khắc phục triệt để lỗi ký số EMR kết quả chẩn đoán hình ảnh bị lệch mã loại phiếu (fileDocTypeCode).
+- 🐛: [Diagnose] Sửa lỗi phiếu kết quả CĐHA (Điện tim, Siêu âm, X-Quang, Loãng xương...) khi ký số EMR bị gán nhầm mã phiếu tài liệu cấu hình (Điện tim bị nhầm thành Loãng xương do lệch enum index). Sau khi cập nhật, phiếu Điện tim map chính xác mã cấu hình EMR_DIENTIM = EMR40005.
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/160
+- 📗: CSDL emr_omon (TTYT KV Ô Môn) - bảng badt_dhs.signs, các key cấu hình EMR CĐHA trong file .env (EMR_DIENTIM, EMR_SIEUAM, EMR_XQUANG...).
+- 📕: Vào Cận lâm sàng -> Chọn bệnh nhân (MaBN: 2024041617, MaBA: 2025010898) -> Trả kết quả Điện tim -> Bấm [BADT - Ký số EMR]: hệ thống ký số thành công và lưu vết vào badt_dhs.signs với đúng mã phiếu filedoctypecode = 'EMR40005'.
+- Thực hiện theo mô tả [ĐỊNH CHUẨN THỨ TỰ LOAIPHIEUKYSOENUM KHẮC PHỤC SAI MÃ KÝ SỐ EMR](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/EMR/Mo-ta-Dinh-chuan-thu-tu-LoaiPhieuKySoEnum-khac-phuc-sai-ma-ky-so.md)
+![](https://i.vgy.me/6hLrqv.png)
+
 ## [v.3.26.0924.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609240-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Utilities.Executable] Chuẩn hóa kích thước Form 1344x688 và tối ưu tỷ lệ co giãn cho màn hình lớn khi trả kết quả CLS Chụp CT (FrmChupCT).
 - 🐛: [Utilities.Executable] Sửa lỗi bể form giao diện FrmChupCT: co cụm kích thước (1231x641), ẩn combobox Bệnh lý và điều khiển Mã máy, nút thanh đáy bị đè lấn 77px, lệch nhãn thông tin bệnh nhân.
