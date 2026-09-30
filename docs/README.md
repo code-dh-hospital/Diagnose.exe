@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.0930.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609301-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose & Utilities.Executable] Khôi phục cấu trúc giao diện chuẩn ban đầu cho form trả kết quả CT Scanner (FrmChupCT.Designer.cs) đồng nhất với FrmXQuang và FrmChupMRI
+
+- 🐛: [Diagnose & Utilities.Executable] Khắc phục triệt để lỗi mất nút [Lưu] (F2) do bị nút [Tham khảo kết quả XN] đè lên, nhãn 'tuổi' đè vào ô nhập tuổi, và xô lệch các dòng thông tin bệnh nhân do trước đó bị ép đổi AutoScaleDimensions và co form
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/938
+
+- 📗: current.pscls_lcd
+
+- 📕: [Diagnose & Utilities.Executable] Revert toàn bộ file FrmChupCT.Designer.cs về thông số chuẩn AutoScaleDimensions = (8F, 16F) và ClientSize = (1344, 688); đưa vị trí nút btnKetQuaXN về X = 170 và cbButton về X = 457 cách nhau 139px an toàn; nhãn lbdvtuoi về X = 239 ngay sau ô số tuổi; bảo lưu hoàn toàn cơ chế gọi clearDanhSachChoLCD() xóa màn hình Monitor Tivi khi lưu kết quả
+
+- Thực hiện theo mô tả [Cập nhật hiển thị danh sách bệnh nhân phòng xét nghiệm và CĐHA trên monitor tivi](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Mo-ta-cap-nhat-hien-thi-danh-sach-benh-nhan-phong-xet-nghiem-va-cdha-tren-monitor-tivi.md)
+
 ## [v.3.26.0930.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609300-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Diagnose & DH.DALCLS & Utilities.Executable] Chuẩn hóa toàn diện cơ chế tự động xóa bệnh nhân khỏi màn hình Tivi Monitor CLS trên toàn bộ 15 form trả kết quả CĐHA và danh sách FrmDanhSach
 - 🐛: [Diagnose & DH.DALCLS & Utilities.Executable] Khắc phục triệt để lỗi trả kết quả CĐHA thành công nhưng dòng bệnh nhân vẫn tồn tại trên Tivi do thứ tự gọi hàm giải phóng form và thiếu đồng bộ cơ chế xóa trên các form kết quả CĐHA khác nhau (CT, MRI, X-Quang, Siêu âm, Điện tim, Hô hấp...)
