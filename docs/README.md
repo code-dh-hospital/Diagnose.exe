@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.1005.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610050-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose & DH.ReportCLS, DH.XML4750] Đồng bộ cập nhật các thư viện phụ thuộc DH.ReportCLS.dll và DH.XML4750.dll vào module EXE đầu ra Diagnose; nâng cấp cơ chế xem trước kết quả CLS CĐHA: tự động nhận diện kết quả PACS để ưu tiên kích hoạt trình duyệt web xem ảnh DICOM chất lượng cao (PacsIntegrationService) và hiển thị phiếu in kết quả, bọc khối gọi file ký số EMR trong try...catch an toàn.
+- 🐛: [Diagnose & DH.ReportCLS, DH.XML4750] Khắc phục triệt để lỗi sập màn hình khi bấm nút "Kết quả" trên giao diện DHG.Hospital Diagnose (System.Exception: Error converting value "File does not exist" to type ApiResponse) theo phản hồi kiểm thử Comment #44685 và Comment #44728 trên Issue DUAN#38: trước đây khi tiếp nhận kết quả từ PACS (qua HL7 hoặc JSON), hệ thống lưu link viewer vào trường filepath của bảng current.pskhamha kèm cờ api = 1, khiến module Diagnose hiểu nhầm là file PDF ký số EMR và gọi sang EMR bị báo lỗi "File does not exist". Đã chuẩn hóa dữ liệu PACS (tenmay = 'PACS', api = NULL, filepath = NULL) và hoàn thiện cơ chế fallback an toàn trên Client C#.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-44728 (hdhiswork/DUAN#38)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-44685 (hdhiswork/DUAN#38)
+- 📗: current.pskhamha (chuẩn hóa tenmay = 'PACS', api = NULL, filepath = NULL đối với các ca kết quả PACS), current.chidinhcls (idpacs = AccessionNo).
+- 📕: Phân hệ Khám bệnh & Chẩn đoán hình ảnh: Bác sĩ chọn bệnh nhân có kết quả từ PACS và bấm nút "Kết quả" hiển thị trơn tru phiếu in kết quả và tự động kích hoạt trình duyệt xem ảnh PACS Web Viewer bình thường, không bị sập màn hình.
+- Thực hiện theo mô tả [KHẮC PHỤC LỖI XEM KẾT QUẢ CĐHA VÀ MỞ PACS WEB VIEWER TRÊN HIS (BÓC TÁCH LUỒNG EMR FILE KÝ SỐ VÀ PACS URL)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/DH-PACS/Mo-ta-khac-phuc-loi-xem-ket-qua-cdha-va-pacs-viewer-tren-his.md)
+![](https://i.vgy.me/j2PYsz.png)
+![](https://i.vgy.me/pyW6aw.png)
+![](https://i.vgy.me/C1MDKW.png)
+
 ## [v.3.26.0930.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32609301-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Diagnose & Utilities.Executable] Khôi phục cấu trúc giao diện chuẩn ban đầu cho form trả kết quả CT Scanner (FrmChupCT.Designer.cs) đồng nhất với FrmXQuang và FrmChupMRI
 
