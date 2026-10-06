@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.1006.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose & Utilities.Executable, OTH.Entity] Đồng bộ cập nhật các thư viện OTH.Entity.dll và Utilities.Executable.dll vào module EXE đầu ra Diagnose; khôi phục thuộc tính TextBtnBoTV và TextTrangThaiDangThucHien bảo toàn tương thích nhị phân; bổ sung cơ chế bảo vệ an toàn cách ly hàm nạp cấu hình Tivi và bẫy lỗi cấu trúc DataTable trên form FrmDanhSach
+- 🐛: [Diagnose & Utilities.Executable, OTH.Entity] Khắc phục triệt để chuỗi 3 lỗi phát sinh tại phân hệ Chẩn đoán hình ảnh (Diagnose) theo phản hồi kiểm thử Comment #46411 trên Issue DUAN#38: (1) Lỗi MissingMethodException: get_TextBtnBoTV() khi click menu Chẩn đoán, (2) Lỗi Cannot find column [mabn] khi bấm nút Làm mới, (3) Lỗi Cannot find column [tinhtrang] khi thao tác lọc và tính số ca cấp cứu
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-46411 (hdhiswork/DUAN#38)
+- 📗: Không thay đổi cơ sở dữ liệu (sử dụng cấu hình coderun mã monitor_cls_tv_option hiện hữu)
+- 📕: Phân hệ Khám bệnh & Chẩn đoán hình ảnh (Diagnose): Khởi động và nạp form FrmDanhSach trơn tru, danh sách bệnh nhân và cấu hình phòng hiển thị bình thường; bác sĩ/KTV tiếp tục thực hiện xem kết quả PACS và mở PACS Web Viewer không bị gián đoạn
+- Thực hiện theo mô tả [Khắc phục lỗi khởi tạo danh sách bệnh nhân Diagnose và khôi phục tương thích nhị phân EMonitorClsOption](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/DH-PACS/Mo-ta-khac-phuc-loi-khoi-tao-danh-sach-diagnose-va-khoi-phuc-entity-monitor-tv.md)
+
+![](https://i.vgy.me/C1MDKW.png)
+
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-38/debug-image-diagnose-frmdanhsach-hien-thi-thanh-cong.png)
+
 ## [v.3.26.1006.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610060-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Diagnose & Utilities.Executable, OTH.Entity] Đồng bộ cập nhật các thư viện OTH.Entity.dll và Utilities.Executable.dll vào module EXE đầu ra Diagnose; khôi phục thuộc tính TextBtnBoTV và TextTrangThaiDangThucHien bảo toàn tương thích nhị phân; bổ sung cơ chế bảo vệ an toàn cách ly hàm nạp cấu hình Tivi và bẫy lỗi cấu trúc DataTable trên form FrmDanhSach
 - 🐛: [Diagnose & Utilities.Executable, OTH.Entity] Khắc phục triệt để chuỗi 3 lỗi phát sinh tại phân hệ Chẩn đoán hình ảnh (Diagnose) theo phản hồi kiểm thử Comment #46411 trên Issue DUAN#38: (1) Lỗi MissingMethodException: get_TextBtnBoTV() khi click menu Chẩn đoán, (2) Lỗi Cannot find column [mabn] khi bấm nút Làm mới, (3) Lỗi Cannot find column [tinhtrang] khi thao tác lọc và tính số ca cấp cứu
