@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1016.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose] Đồng bộ phân hệ Chẩn đoán hình ảnh (Diagnose) với chuẩn kết nối PACS ECO của Prescription, Register, Treatment: chống gửi trùng dữ liệu khi CLS đã được gửi tự động, hiển thị xác nhận khi gửi lại.
+- 🐛: [Diagnose] Đồng bộ bản tin HL7 OMI^O23 gửi PACS từ Diagnose thông qua PacsDispatcherHelper: chuẩn hóa OBR-47.1 phân định dịch vụ BHYT/thu phí, bổ sung PV1-19 (AdmissionCode = makb), OBR-19 (ParaClinReqCode = makb.madv.maphong), OBR-5 (cấp cứu Y/N) và loại bỏ tiền tố (1) ở tên dịch vụ OBR-4.2.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-49291 (hdhiswork/DUAN#38)
+- 📗: current.chidinhcls (idpacs, pacs2, madv, maphong, bhyt), current.khambenh (makb).
+- 📕: Thực hiện theo mô tả [Đồng bộ chỉ định PACS ECO phân hệ Diagnose](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/DH-PACS/Mo-ta-tu-dong-gui-chi-dinh-pacs-onsaveorder-da-phan-he.md)
+
 ## [v.3.26.1009.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610090-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Bổ sung lại mã CSKCB 79426 - Viện Y Dược Học Dân Tộc (TP HCM) vào danh sách đơn vị MaBVBH
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/953
