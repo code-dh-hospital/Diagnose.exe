@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.1019.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610191-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp hoàn thiện ký số 2 cấp (Dual Sign) tự động cho toàn bộ biểu mẫu kết quả CĐHA & TDCN (X-quang, CT, MRI, Siêu âm, Nội soi, Điện tim, Điện não...):
+  - Tự động nhận diện cấu hình chứng thư số của Bác sĩ chuyên khoa trả kết quả (current.dmcts) để kích hoạt giao diện ký số khi Lưu / In kết quả.
+  - Kế thừa mốc thời gian ký chỉ định gốc của Bác sĩ chỉ định qua API QT9 (/get-metadata) để ký lượt 1 với marker <<SIGN:1:manv_chidinh>>.
+  - Bác sĩ chuyên khoa thực hiện ký số lượt 2 với marker <<SIGN:2:manv_thuchien>> (hoặc marker <<SIGN>> mặc định).
+  - Tự động fallback in thường an toàn nếu Bác sĩ chuyên khoa chưa cấu hình CKS, không gây lỗi popup chặn thao tác.
+  - Sinh mã định danh maphieu chống đè dữ liệu theo chuẩn: ${mabn}${makb}_KQ_${macls}${ngaykcb}.
+- 🐛: Khắc phục triệt để lỗi sai lệch mốc thời gian ký của Bác sĩ chỉ định và loại bỏ thao tác chọn menu ký số thủ công tại phân hệ Chẩn đoán hình ảnh (Diagnose).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/919
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/165
+- 📗: Không thay đổi cấu trúc bảng CSDL HIS, kết nối API qua endpoint NodeJS EMR Gateway /get-metadata.
+- 📕: Áp dụng trực tiếp tại phân hệ Diagnose.exe trên toàn hệ thống DH-HIS.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-frmdiagnose-main-fullflow.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-frmxquang-normal.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-frmxquang-maximized.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-xfrmpdfsign-xquang-2chukyso.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-frmmain2-fullflow.png)
+
 ## [v.3.26.1019.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610190-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật module EXE đầu ra Diagnose đồng bộ toàn diện với bản tin HL7 OMI^O23 của PACS ECO thông qua `Utilities.Executable` và `DH.PublicCLS`.
 - 🐛: Khắc phục triệt để lỗi bản tin HL7 gửi PACS từ Diagnose chưa khớp với Prescription theo phản hồi kiểm thử Comment #49482 trên Issue DUAN#38: OBR-47.1 phân định chuẩn BHYT (1) vs Thu phí (0), OBR-5 hiển thị đúng Cấp cứu (Y) vs Thường (N), OBR-19 hiển thị chuẩn makb.madv.maphong thay vì fallback về OrderNumber.
