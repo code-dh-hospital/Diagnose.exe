@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1022.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610220-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Dồn nhật ký cập nhật từ `DH.ReportCLS`: Chuẩn hóa truyền tham số `maba` trên phiếu kết quả X-Quang và các dịch vụ CĐHA ngoại trú.
+- 🐛: Khắc phục lỗi ghi nhận nhầm `maba` bằng `makb` trong metadata ký số EMR khi ký số phiếu kết quả CLS ngoại trú tại phân hệ Diagnose.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/919, https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/165
+- 📗: Không thay đổi cấu trúc database; dữ liệu `maba` ngoại trú được truyền rỗng đúng chuẩn.
+- 📕: Bác sĩ chuyên khoa tại phân hệ Diagnose ký trả kết quả CLS ngoại trú với mẫu in 2 chữ ký số, metadata ghi nhận chính xác `maba` không bị trùng lặp với `makb`.
+
 ## [v.3.26.1019.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610191-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp hoàn thiện ký số 2 cấp (Dual Sign) tự động cho toàn bộ biểu mẫu kết quả CĐHA & TDCN (X-quang, CT, MRI, Siêu âm, Nội soi, Điện tim, Điện não...):
   - Tự động nhận diện cấu hình chứng thư số của Bác sĩ chuyên khoa trả kết quả (current.dmcts) để kích hoạt giao diện ký số khi Lưu / In kết quả.
