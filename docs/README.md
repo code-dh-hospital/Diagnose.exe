@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1027.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610271-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610271-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610271-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp nút xem ê kíp kèm Flyout popup DevExpress trên FrmDanhSach và bên trong ô Bác sĩ/Người thực hiện tại FrmSieuAmNoiSoi; đổi nhãn nút Lập ê kíp PT/TT thực hiện
+- 🐛: Đồng bộ tái hiện danh sách ê kíp và CCHN từ session hoặc phục hồi từ cơ sở dữ liệu đã lưu
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/978
+- 📗: current.chidinhcls, current.dmnhanvien, current.dmekip, current.lichtruc_diagnose, current.pskhamha
+- 📕: Nút xem ê kíp sau nút Bắt đầu thực hiện (enable khi có session ê kíp); ButtonEdit tích hợp icon xem ê kíp trong Form kết quả
+![](https://images-worker.tlt02.workers.dev/i/01a17c4a-a685-7217-b255-2499f818515b)
+
 ## [v.3.26.1027.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610270-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [DH.ChuKySo / XtraRPT] Tối ưu hóa điều phối chữ ký số 2 cấp và tự động bổ sung thẻ `ho_ten` vào metadata ký số EMR
 - 🐛: [DH.ChuKySo] Sửa lỗi phiếu kết quả X-quang hiển thị sai năm ký (năm 1413) của Bác sĩ chỉ định, thiếu trường họ tên người bệnh và bọc an toàn lỗi kết nối socket rỗng khi gọi dịch vụ ký số
