@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.1027.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610270-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [DH.ChuKySo / XtraRPT] Tối ưu hóa điều phối chữ ký số 2 cấp và tự động bổ sung thẻ `ho_ten` vào metadata ký số EMR
+- 🐛: [DH.ChuKySo] Sửa lỗi phiếu kết quả X-quang hiển thị sai năm ký (năm 1413) của Bác sĩ chỉ định, thiếu trường họ tên người bệnh và bọc an toàn lỗi kết nối socket rỗng khi gọi dịch vụ ký số
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/919
+- 📗: Đối soát thông tin chỉ định và kết quả CLS qua CSDL `yhct_ct_full` (`current.chidinhcls`, `current.pskhamha`, `current.system`, `current.dmbenhnhan`)
+- 📕: Bác sĩ trả kết quả X-quang thực hiện Lưu/Xem kết quả, hệ thống tự động gán chính xác mốc thời gian ký chỉ định và bổ sung đầy đủ trường `ho_ten` người bệnh lên EMR Web
+![Phiếu kết quả X-Quang có 2 chữ ký số](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-xfrmpdfsign-xquang-2chukyso.png)
+![Giao diện FrmXQuang chuẩn](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-frmxquang-normal.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-frmdiagnose-main-fullflow.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-frmxquang-maximized.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-frmmain2-fullflow.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-loi-ketnoi-callapi.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-postman-metadata-signingtime.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-frmxquang-chukyso-bsdieutri.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-web-emr-metadata-hoten-signingtime.png)
+
 ## [v.3.26.1022.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610220-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Dồn nhật ký cập nhật từ `DH.ReportCLS`: Chuẩn hóa truyền tham số `maba` trên phiếu kết quả X-Quang và các dịch vụ CĐHA ngoại trú.
 - 🐛: Khắc phục lỗi ghi nhận nhầm `maba` bằng `makb` trong metadata ký số EMR khi ký số phiếu kết quả CLS ngoại trú tại phân hệ Diagnose.
