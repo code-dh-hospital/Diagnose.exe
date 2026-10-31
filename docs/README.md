@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1031.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610312-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610312-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610312-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hoàn thiện tính năng ký số kết quả CĐHA & TDCN: bảo vệ thông tin Bác sĩ trả kết quả trên 15 form, tự động nạp tài khoản ký số đối soát theo 4 trường khóa.
+- 🐛: Khắc phục lỗi khi mở lại ca bệnh đã có kết quả hoặc ký số từ danh sách/form CĐHA bị tài khoản đang đăng nhập ghi đè lên Bác sĩ trả kết quả, làm mất con dấu ký số của Bác sĩ chuyên khoa.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/919
+- 📗: Đối soát bảng `current.pskhamha` và `current.chidinhcls` theo đủ 4 trường khóa `(mabn, makb, macls, ngaykcb)` bằng `NpgsqlParameter` chuẩn xác.
+- 📕: Phân hệ Diagnose (CĐHA & TDCN): Khi mở xem lại hoặc ký số từ danh sách, tự động bảo vệ `manv_truc = manvOld`, đảm bảo giữ nguyên bác sĩ đã đọc kết quả và tài khoản ký số hợp lệ.
+![Phiếu kết quả X-Quang 2 chữ ký số hợp lệ](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-919/debug-image-diagnose-xfrmpdfsign-xquang-2chukyso-hop-le.png)
+
 ## [v.3.26.1031.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610311-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610311-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610311-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Diagnose.exe] Cập nhật phân hệ Chẩn đoán hình ảnh tích hợp bộ lọc tìm kiếm nhanh ê kíp, cho phép tự nhập mã ngắn gọn và đồng bộ trạng thái Bác sĩ kiêm thực hiện trên lịch trực.
 - 🐛: [Diagnose.exe] Đồng bộ xử lý tích chọn ô Thực hiện cho Bác sĩ đọc kiêm thực hiện và tối ưu trải nghiệm chọn ê kíp theo phản hồi kiểm thử #51033.
