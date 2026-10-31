@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1031.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610311-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610311-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610311-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose.exe] Cập nhật phân hệ Chẩn đoán hình ảnh tích hợp bộ lọc tìm kiếm nhanh ê kíp, cho phép tự nhập mã ngắn gọn và đồng bộ trạng thái Bác sĩ kiêm thực hiện trên lịch trực.
+- 🐛: [Diagnose.exe] Đồng bộ xử lý tích chọn ô Thực hiện cho Bác sĩ đọc kiêm thực hiện và tối ưu trải nghiệm chọn ê kíp theo phản hồi kiểm thử #51033.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/978#issuecomment-51033 (hdhiswork/YEUCAU#978)
+- 📗: current.lichtruc_diagnose, current.dmekip, current.dmnhanvien
+- 📕: Khởi chạy Diagnose.exe, thiết lập ê kíp và kiểm tra danh sách trực hiển thị chuẩn xác cả Được khám và Thực hiện cho Bác sĩ kiêm nhiệm.
+![](https://images-worker.tlt02.workers.dev/i/01a17c4a-a685-7217-b255-2499f818515b)
+
 ## [v.3.26.1031.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610310-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [DH.ReportCLS, XtraRPT] Hoàn thiện quy trình ký số 2 cấp trên phiếu kết quả Cận lâm sàng CĐHA (X-quang, CT Scanner, MRI, Siêu âm, Nội soi, TDCN) với NodeJS CKS Service `1.261030.11754`.
 - 🐛: [DH.ReportCLS, XtraRPT] Sửa lỗi không lấy được chữ ký số của Bác sĩ đọc kết quả trên phiếu X-quang (Comment #51193 & Comment #51242); hỗ trợ kích hoạt ký trung gian ở bước 1 và liên kết sự kiện nút `Ký lần 2` trên form xác thực ký số.
