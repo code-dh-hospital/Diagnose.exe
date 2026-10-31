@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1031.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610310-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [DH.ReportCLS, XtraRPT] Hoàn thiện quy trình ký số 2 cấp trên phiếu kết quả Cận lâm sàng CĐHA (X-quang, CT Scanner, MRI, Siêu âm, Nội soi, TDCN) với NodeJS CKS Service `1.261030.11754`.
+- 🐛: [DH.ReportCLS, XtraRPT] Sửa lỗi không lấy được chữ ký số của Bác sĩ đọc kết quả trên phiếu X-quang (Comment #51193 & Comment #51242); hỗ trợ kích hoạt ký trung gian ở bước 1 và liên kết sự kiện nút `Ký lần 2` trên form xác thực ký số.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/919
+- 📗: CSDL `tuan_thanhtam_full_kyso_final`: Kiểm tra bảng `current.dmcts` cấu hình chứng thư số cho BS chỉ định (`00`) và BS thực hiện (`024`), đối chiếu `current.chidinhcls` và `current.pskhamha` của bệnh nhân Lâm Thị Phụng (`2026000010`).
+- 📕: Bác sĩ chuyên khoa tại các phòng máy CĐHA thực hiện nhập kết luận, bấm Lưu và In kết quả; hệ thống tự động hoàn thiện đầy đủ cả 2 chữ ký số hợp lệ trên phiếu kết quả Mẫu 08/BV-02.
+
 ## [v.3.26.1027.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610271-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610271-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610271-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp nút xem ê kíp kèm Flyout popup DevExpress trên FrmDanhSach và bên trong ô Bác sĩ/Người thực hiện tại FrmSieuAmNoiSoi; đổi nhãn nút Lập ê kíp PT/TT thực hiện
 - 🐛: Đồng bộ tái hiện danh sách ê kíp và CCHN từ session hoặc phục hồi từ cơ sở dữ liệu đã lưu
