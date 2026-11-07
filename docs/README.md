@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.26.1108.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611080-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose.exe, DH.DALCLS, Utilities.Executable] Rà soát và hoàn thiện dữ liệu đầu ra khi chọn bộ ê kíp trong phân hệ Diagnose: tự động lưu ê kíp thực hiện cho cận lâm sàng không có loại PTTT vào current.ekippt và current.phauthuat (pttt_tam = 1) phục vụ xuất XML3.NGUOI_THUC_HIEN, hiển thị 2 cột TT/PT và Có PT-TT cho tất cả khách hàng, đổi nhãn nút "Lập phiếu PTTT", tự động nạp ngày thực hiện/ngày kết quả và chẩn đoán trước/sau phẫu thuật thủ thuật khi mở hoặc bấm nút Chỉnh.
+- 🐛: [DH.DALCLS, Utilities.Executable] Khắc phục lỗi thiếu CCHN người thực hiện trong XML3 đối với các CLS không cấu hình Loại PTTT do bị điều kiện chặn maloaipt tại tầng DAL làm mất dữ liệu ê kíp; khắc phục lỗi các ô Ngày giờ bắt đầu/kết thúc và Chẩn đoán trước/sau PT-TT bị trống hoặc trùng giờ khi bấm nút Chỉnh tại form Lập phiếu PTTT.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1004#issuecomment-52165 (hdhiswork/YEUCAU#1004)
+- 📗: current.phauthuat, current.ekippt, current.chidinhcls, current.pskhamha, current.dmcls, current.dmicd, current.khambenh
+- 📕: Khởi chạy Diagnose.exe -> Danh sách bệnh nhân CLS kiểm tra 2 cột TT/PT và Có PT-TT; kiểm tra nút Lập phiếu PTTT; mở form Lập phiếu PTTT bấm nút Chỉnh kiểm tra tự động nạp ngày giờ thực hiện/kết quả và chẩn đoán chính; kiểm tra xuất dữ liệu XML3 nạp đủ CCHN ê kíp.
+### 📸 HÌNH ẢNH KIỂM CHỨNG KỸ THUẬT ISSUE #1004 (SUPABASE S3)
+1. **Hình 1 - Kiểm chứng Giao diện Danh sách CLS (FrmDanhSach):**
+   - URL: https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1004/debug-image-diagnose-frmdanhsach-button-columns.png
+   - Ghi nhận: Nút chức năng `btnEkipCLS` hiển thị nhãn `"Lập phiếu PTTT"`; trên lưới dịch vụ `dgDichVu`, 2 cột `"TT/PT"` và `"Có PT-TT"` hiển thị rõ ràng cho tất cả cơ sở dữ liệu bệnh viện.
+2. **Hình 2 - Kiểm chứng Form Lập phiếu PTTT khi bấm nút Chỉnh (FrmThuThuatPhauThuat):**
+   - URL: https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1004/debug-image-diagnose-frmthuthuatphauthuat-auto-fill.png
+   - Ghi nhận: `PT/TT lúc` nạp ngày thực hiện (`12:24:14 07/11/2026`), `Xong lúc` nạp ngày kết quả (`12:24:14 07/11/2026`), `Chẩn đoán trước PT/TT` và `sau PT/TT` tự động nạp mã `A00` và tên `Bệnh tả`, lưới ê kíp nạp đủ 3 nhân viên (`067`, `108`, `085`).
+3. **Hình 3 - Kiểm chứng Dữ liệu CSDL và Đầu ra Ê kíp cho CLS không có Loại PTTT (SI107):**
+   - URL: https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1004/debug-image-diagnose-db-ekippt-pttt-tam.png
+   - Ghi nhận: Bảng `current.phauthuat` có bản ghi chỉ định `CLS.20261107.122441` với `macls = SI107`, `maloai = NULL` (không vi phạm check constraint foreign key), `pttt_tam = 1`; bảng `current.ekippt` lưu đủ 3 dòng thành viên ê kíp (`067`, `108`, `085`) đảm bảo XML3.NGUOI_THUC_HIEN nạp đủ CCHN và XML4/XML5 tự động loại trừ an toàn.
+
 ## [v.3.26.1031.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610312-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610312-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32610312-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hoàn thiện tính năng ký số kết quả CĐHA & TDCN: bảo vệ thông tin Bác sĩ trả kết quả trên 15 form, tự động nạp tài khoản ký số đối soát theo 4 trường khóa.
 - 🐛: Khắc phục lỗi khi mở lại ca bệnh đã có kết quả hoặc ký số từ danh sách/form CĐHA bị tài khoản đang đăng nhập ghi đè lên Bác sĩ trả kết quả, làm mất con dấu ký số của Bác sĩ chuyên khoa.
