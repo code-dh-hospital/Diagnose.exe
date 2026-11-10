@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1110.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611100-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [DH.ReportCLS] Cấu hình tên miền trong mã QR xem hình ảnh CĐHA theo tham số `ha.server_link_viewer` (BV Trung Mỹ Tây).
+- 🐛: [DH.ReportCLS] Khắc phục lỗi hardcode tên miền cũ `http://qr.benhvienquan12.vn:8088/QR?token=` không thể cấu hình thay đổi trên HIS; Bổ sung kiểm tra mã loại `MRI` để hỗ trợ hiển thị mã QR trên mẫu phiếu tự thiết kế DevExpress.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1011
+- 📗: Đọc tiền tố tên miền từ tham số `ha.server_link_viewer` trong `current.system`. Mặc định fallback: `https://pacs.bvdktrungmytay.vn/QR?token=` khi tham số trống đối với mã BV 79029.
+- 📕: Tại phân hệ Chẩn đoán hình ảnh (Diagnose), khi in phiếu kết quả CLS (XQ, XQKTS, CT, MRI), mã QR trên phiếu kết quả truy cập hệ thống PACS với tên miền mới và bảo toàn chuỗi mã hóa token TripleDES.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1011/debug-image-diagnose-admin-cauhinh-ha-server-link-viewer.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1011/debug-image-diagnose-cls-phieu-in-qrcode.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1011/debug-image-diagnose-cls-qr-pacs-viewer.png)
+
 ## [v.3.26.1109.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611090-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Diagnose.exe, Utilities.Executable] Cập nhật và liên kết phiên bản mới Utilities.Executable v.1.26.1109.0 vào module EXE Diagnose: đảm bảo nút 'Lập phiếu PTTT' và 2 cột 'TT/PT', 'Có PT-TT' hiển thị chuẩn xác cho mọi cơ sở dữ liệu bệnh viện (Thánh Tâm, Tâm Phúc, PK Phương Nam...); cho phép click cột TT/PT mở form Lập phiếu PTTT cho tất cả CLS.
 - 🐛: [Diagnose.exe] Khắc phục tình trạng Diagnose.exe được build trước khi Utilities.Executable.dll hoàn tất xuất bản làm lệch phiên bản nhị phân; loại bỏ hoàn toàn các rào cản mã cơ sở y tế khi click thao tác lập phiếu PT-TT trên lưới danh sách.
