@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1112.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611120-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Mở rộng tham số hệ thống cks.ketquacls bổ sung giá trị 2 (tự động ký số khi lưu kết quả) trong diễn giải cấu hình hệ thống FrmMain2; tích hợp tự động ký số kết quả CĐHA/TDCN từ Utilities.Executable và DH.ReportCLS.
+- 🐛: Đồng bộ luồng ký số tự động 1-click cho các kỹ thuật X-quang, CT, MRI, Siêu âm, Nội soi, Điện tim, Điện não, Chức năng hô hấp khi lưu kết quả.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/990
+- 📗: Cập nhật tài liệu đặc tả hệ thống [Mo-ta-YEUCAU-Issue-990-Tu-Dong-Ky-So-Chi-Dinh-CLS.md](../../Mo-ta-he-thong/Chu-ky-so/Mo-ta-YEUCAU-Issue-990-Tu-Dong-Ky-So-Chi-Dinh-CLS.md).
+- 📕: Cấu hình cks.ketquacls = 2 trên phân hệ Chẩn đoán hình ảnh tự động hiển thị form xem trước kết quả đã ký số EMR sau khi lưu.
+
 ## [v.3.26.1110.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611100-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [DH.ReportCLS] Cấu hình tên miền trong mã QR xem hình ảnh CĐHA theo tham số `ha.server_link_viewer` (BV Trung Mỹ Tây).
 - 🐛: [DH.ReportCLS] Khắc phục lỗi hardcode tên miền cũ `http://qr.benhvienquan12.vn:8088/QR?token=` không thể cấu hình thay đổi trên HIS; Bổ sung kiểm tra mã loại `MRI` để hỗ trợ hiển thị mã QR trên mẫu phiếu tự thiết kế DevExpress.
