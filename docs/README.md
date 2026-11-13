@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.1113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611130-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật thư viện DLL liên quan: Utilities.Executable hỗ trợ chuẩn gửi dữ liệu Unicode tiếng Việt có dấu sang hệ thống Modern PACS.
+- 🐛: Khắc phục lỗi gửi thông tin không có dấu tiếng Việt sang hệ thống PACS khi bấm nút Gửi PACs trên module Diagnose.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1091 (hdhiswork/LOI#1091)
+
 ## [v.3.26.1112.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611120-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Mở rộng tham số hệ thống cks.ketquacls bổ sung giá trị 2 (tự động ký số khi lưu kết quả) trong diễn giải cấu hình hệ thống FrmMain2; tích hợp tự động ký số kết quả CĐHA/TDCN từ Utilities.Executable và DH.ReportCLS.
 - 🐛: Đồng bộ luồng ký số tự động 1-click cho các kỹ thuật X-quang, CT, MRI, Siêu âm, Nội soi, Điện tim, Điện não, Chức năng hô hấp khi lưu kết quả.
