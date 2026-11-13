@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.1113.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611132-NasDHSolutions.json)</sup></sup></sub>
+- ✨: `Đồng bộ cập nhật Utilities.Executable.dll hỗ trợ chuyển PACS tiếng Việt có dấu và định tuyến modern flow`
+- 🐛: `Khắc phục triệt để lỗi mất dấu tiếng Việt và lỗi cột chuyenpacs trên phân hệ Chẩn đoán hình ảnh Diagnose`
+- ☑: `https://i.dh-his.com/hdhiswork/LOI/issues/1091`
+
 ## [v.3.26.1113.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611131-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật thư viện DLL liên quan: DH.PublicCLS hỗ trợ chuẩn hóa điều kiện kích hoạt Modern/Legacy PACS và báo lỗi gửi PACS chuẩn xác.
 - 🐛: Khắc phục lỗi không gửi được PACS đối với bệnh viện sử dụng cấu hình Legacy (như BV Tâm Phúc), đảm bảo sinh mã Accession Number đúng theo tham số ha.idpacs.
