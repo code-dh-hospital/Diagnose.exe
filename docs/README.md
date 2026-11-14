@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.1115.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611150-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Đồng bộ cập nhật phân hệ Chẩn đoán hình ảnh (Diagnose.exe) theo thư viện nền tảng DH.PublicCLS và Utilities.Executable mới nhất; chuẩn hóa giao tiếp PACS theo từng đối tác y tế.
+- 🐛: Loại bỏ lỗi 404 Savina và các popup cảnh báo rác khi mở danh sách bệnh nhân và các form chẩn đoán hình ảnh tại BV ĐK Tâm Phúc (60152).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1093#issuecomment-53156 (hdhiswork/LOI#1093)
+
 ## [v.3.26.1113.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611132-NasDHSolutions.json)</sup></sup></sub>
 - ✨: `Đồng bộ cập nhật Utilities.Executable.dll hỗ trợ chuyển PACS tiếng Việt có dấu và định tuyến modern flow`
 - 🐛: `Khắc phục triệt để lỗi mất dấu tiếng Việt và lỗi cột chuyenpacs trên phân hệ Chẩn đoán hình ảnh Diagnose`
