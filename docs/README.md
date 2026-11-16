@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1116.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Sổ chẩn đoán hình ảnh: cột "Nhân viên thực hiện y lệnh" hiển thị người trả kết quả + toàn bộ bộ ekip đã chọn khi thực hiện (giống XML3.NGUOI_THUC_HIEN), bỏ trùng tên, cách nhau "; ". Cập nhật DLL liên quan: DataHelper (SoAdapter.GetSoChanDoan). Reports dùng chung form Sổ CĐHA nên nhận thay đổi khi cập nhật DataHelper.dll.
+- 🐛: Khắc phục Sổ chẩn đoán hình ảnh chỉ hiện 1 nhân viên (tài khoản trả kết quả) trong khi XML3.NGUOI_THUC_HIEN đã xuất đủ bộ ekip.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1009 (báo cáo: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/342)
+- 📗: Không thay đổi CSDL. Mô tả: [Mo-ta-yeucau-1009-so-cdha-nhanvien-ekip.md](../../Mo-ta-he-thong/DIAGNOSE/Mo-ta-yeucau-1009-so-cdha-nhanvien-ekip.md)
+- 📕: Báo cáo -> Sổ chẩn đoán -> chọn thời gian -> Xem: CLS có chọn bộ ekip hiện "người trả KQ; thành viên ekip..."; CLS không có ekip hiện như cũ.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1009/debug-image-diagnose-frmsochandoanhinhanh-nhanvien-ekip.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1009/debug-image-diagnose-sochandoanhinhanh-nhanvien-ekip.png)
+
 ## [v.3.26.1115.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611150-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đồng bộ cập nhật phân hệ Chẩn đoán hình ảnh (Diagnose.exe) theo thư viện nền tảng DH.PublicCLS và Utilities.Executable mới nhất; chuẩn hóa giao tiếp PACS theo từng đối tác y tế.
 - 🐛: Loại bỏ lỗi 404 Savina và các popup cảnh báo rác khi mở danh sách bệnh nhân và các form chẩn đoán hình ảnh tại BV ĐK Tâm Phúc (60152).
