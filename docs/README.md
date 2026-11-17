@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1117.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611171-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose & DH.PublicCLS] Đồng bộ thư viện DH.PublicCLS.dll (v.3.26.1117.0) cập nhật chuẩn hóa chuỗi chẩn đoán ICD và bản tin HL7 OMI^O23 gửi máy chủ PACS ECO.
+- 🐛: [Diagnose] Sửa lỗi gửi lại PACS thủ công (ProcessManualResendPacs) tách đúng chẩn đoán chính và phụ từ chuỗi kqcdoan gộp, đảm bảo mã ICD chính đi liền sau tên chẩn đoán chính thay vì bị đẩy ra cuối (LOI #1096).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1096
+- 📗: Không thay đổi CSDL; dữ liệu đọc từ current.chidinhcls.
+- 📕: Phân hệ Chẩn đoán hình ảnh (Diagnose) đóng gói kèm DH.PublicCLS.dll mới nhất, chức năng Gửi lại PACS tạo chuỗi OBR-31 chuẩn.
+
 ## [v.3.26.1117.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611170-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Không có
 - 🐛: Dồn nhật ký từ DH.ReportCLS: Sửa lỗi không ký số BAĐT được cho phiếu X-Quang, XQKTS và MRI
