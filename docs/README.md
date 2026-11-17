@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1117.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Không có
+- 🐛: Dồn nhật ký từ DH.ReportCLS: Sửa lỗi không ký số BAĐT được cho phiếu X-Quang, XQKTS và MRI
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1097
+- 📗: Đối soát dữ liệu ký số tại bảng badt_dhs.signs trên CSDL emr_omon
+- 📕: Xem chi tiết đặc tả tại [Mo-ta-sua-loi-ky-so-badt-xquang-mri-loi-1097.md](../../Mo-ta-he-thong/CHANDOANHINHANH/Mo-ta-sua-loi-ky-so-badt-xquang-mri-loi-1097.md)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1097/debug-image-diagnose-xq-badt-kyso.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1097/debug-image-diagnose-fullflow-mdi.png)
+
 ## [v.3.26.1116.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611160-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Sổ chẩn đoán hình ảnh: cột "Nhân viên thực hiện y lệnh" hiển thị người trả kết quả + toàn bộ bộ ekip đã chọn khi thực hiện (giống XML3.NGUOI_THUC_HIEN), bỏ trùng tên, cách nhau "; ". Cập nhật DLL liên quan: DataHelper (SoAdapter.GetSoChanDoan). Reports dùng chung form Sổ CĐHA nên nhận thay đổi khi cập nhật DataHelper.dll.
 - 🐛: Khắc phục Sổ chẩn đoán hình ảnh chỉ hiện 1 nhân viên (tài khoản trả kết quả) trong khi XML3.NGUOI_THUC_HIEN đã xuất đủ bộ ekip.
