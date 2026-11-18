@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1118.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611181-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Diagnose] Đồng bộ Utilities.Executable (v.1.26.1118.1) và DH.PublicCLS (v.3.26.1118.1) mới nhất, tối ưu hóa chuỗi chẩn đoán OBR-31 gửi máy chủ PACS ECO.
+- 🐛: [Diagnose] Khắc phục triệt để lỗi chuỗi chẩn đoán bị lặp tên bệnh phụ không có mã ICD chen vào giữa khi gửi PACS thủ công từ danh sách chỉ định CĐHA (LOI #1096 Comment #53731).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1096#issuecomment-53731 (hdhiswork/LOI#1096)
+- 📗: Không thay đổi CSDL; ghi nhận log gửi PACS vào current.pacs_message_log và cập nhật idpacs vào current.chidinhcls.
+- 📕: Phân hệ Chẩn đoán hình ảnh (Diagnose) gửi bản tin HL7 OMI^O23 chuẩn sang PACS ECO với OBR-31 hiển thị đúng thứ tự từng chẩn đoán kèm mã ICD tương ứng.
+
 ## [v.3.26.1118.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611180-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Diagnose] Đồng bộ Utilities.Executable và DH.PublicCLS mới nhất, tối ưu hóa chuỗi chẩn đoán OBR-31 gửi máy chủ PACS ECO.
 - 🐛: [Diagnose] Khắc phục triệt để lỗi chuỗi chẩn đoán bị lặp tên bệnh phụ không có mã ICD chen vào giữa khi gửi PACS thủ công từ danh sách chỉ định CĐHA (LOI #1096 Comment #53731).
