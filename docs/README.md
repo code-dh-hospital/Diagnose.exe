@@ -6,6 +6,30 @@
 
 #
 
+## [v.3.26.1120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Nâng kích thước chữ ký số tối ưu (Width tối thiểu 250 pt, Height 65-75 pt) và kiểm soát chính xác luồng ký số thủ công theo tham số cks.ketquacls = 1
+- 🐛: Khắc phục lỗi khi cks.ketquacls = 1 trả kết quả X-Quang (hoặc CLS khác) click Lưu vẫn thực hiện ký số; tối ưu kích thước cụm con dấu to rõ, đậm nét theo thiết kế và chống đè chữ (LOI #1100)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1100
+- 📗: CSDL pkpn_16 @ 192.168.50.79:5433 - Tham số cks.ketquacls, ha.ketquacls, bảng current.xtrareports, current.chidinhcls, current.dmcts
+- 📕: Phân hệ Chẩn đoán hình ảnh (Diagnose) - Khi cks.ketquacls = 1, form lưu kết quả gọi xem trước thông thường (thucHienKySo = false), chỉ ký số khi bác sĩ chủ động chọn menu 'Ký số SoftDream' hoặc bấm Ký số; kích thước con dấu được mở rộng tối ưu 250 pt bề ngang, vừa vặn trang in và hiển thị to rõ
+- ✨: Chuẩn hóa tọa độ và vị trí con dấu chữ ký số khớp chính xác 100% theo thuộc tính Size và TextAlignment của XRLabel thiết kế (Quy đổi Points 72 DPI), rà soát toàn diện luồng ký số theo tham số cks.ketquacls (0, 1, 2)
+- 🐛: Khắc phục lỗi con dấu chữ ký số bị đè lên chức danh Bác sĩ điều trị và Bác sĩ chuyên khoa do lệch hệ tọa độ PDF và căn lề dọc (LOI #1100)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1100
+- 📗: CSDL pkpn_16 @ 192.168.50.79:5433 - Tham số cks.ketquacls, ha.ketquacls, bảng current.xtrareports, current.chidinhcls, current.dmcts
+- 📕: Phân hệ Chẩn đoán hình ảnh (Diagnose) - Tự động nhận diện căn lề TextAlignment (TopCenter: đáy = maxY - H; MiddleCenter: căn giữa tâm marker), quy đổi đơn vị thiết kế sang PDF Points, chống đè chữ tuyệt đối
+- ✨: Mở rộng khả năng thiết kế trang in DevExpress, trích xuất kích thước chữ ký số CLS theo đúng thuộc tính Size của XRLabel thiết kế và kiểm soát luồng ký số theo tham số cks.ketquacls
+- 🐛: Khắc phục lỗi nút Thiết kế trang in bị khóa mờ khi admin in kết quả; sửa lỗi con dấu chữ ký số bị nhỏ; sửa lỗi printXQUANG tự động gọi ký số khi cks.ketquacls = 0 (LOI #1100)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1100
+- 📗: CSDL pkpn_16 @ 192.168.50.79:5433 - Tham số cks.ketquacls, ha.ketquacls, bảng current.xtrareports, current.chidinhcls, current.dmcts
+- 📕: Phân hệ Chẩn đoán hình ảnh (Diagnose) - Quản trị viên đăng nhập admin mở danh sách CLS, in/xem trước hoặc ký số đều có quyền thiết kế mẫu in, kích thước con dấu hiển thị to rõ theo đúng kích thước thiết kế XRLabel (label16, label15...) và tuân thủ đúng tham số cks.ketquacls
+![Minh chứng kết quả in Phiếu X-Quang tọa độ chữ ký số chuẩn xác](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1100/debug-image-diagnose-phieuxquang-cks-toado-chuan.png)
+![Hộp thoại hỏi admin thiết kế lại trang in khi ký số](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1100/debug-image-diagnose-hopthoai-thietketrangin-dongy.jpg)
+![Nút Thiết kế trang in sáng rõ trên FrmPrintPreview](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1100/debug-image-diagnose-frmprintpreview-btneditxrpt-enabled.jpg)
+![Minh chứng tọa độ chữ ký số chuẩn khớp thiết kế XtraLabel](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1100/debug-image-diagnose-clsxtrarpt-toado-cks-chuan.png)
+![Trích xuất kích thước chữ ký động theo thuộc tính Size của label marker](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1100/debug-image-diagnose-clsxtrarpt-kichthuoc-theolabel.png)
+![Nút Thiết kế trang in được bật cho admin](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1100/debug-image-diagnose-frmprintpreview-thietketranginenabled.png)
+![Kích thước con dấu chữ ký số 260x95 pt](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1100/debug-image-diagnose-clsxtrarpt-kichthuoccks200x75.png)
+
 ## [v.3.26.1118.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611181-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Diagnose] Đồng bộ Utilities.Executable (v.1.26.1118.1) và DH.PublicCLS (v.3.26.1118.1) mới nhất, tối ưu hóa chuỗi chẩn đoán OBR-31 gửi máy chủ PACS ECO.
 - 🐛: [Diagnose] Khắc phục triệt để lỗi chuỗi chẩn đoán bị lặp tên bệnh phụ không có mã ICD chen vào giữa khi gửi PACS thủ công từ danh sách chỉ định CĐHA (LOI #1096 Comment #53731).
