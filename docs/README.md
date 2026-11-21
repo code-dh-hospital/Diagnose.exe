@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1121.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611210-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Đồng bộ giao diện Chẩn đoán hình ảnh (Diagnose) với cơ chế ký số kết quả CLS: Bảo toàn tài khoản `admin` khi in kết quả X-Quang để hiển thị hộp thoại hỏi thiết kế lại trang in; Cảnh báo rõ ràng cho người dùng khi bác sĩ thực hiện Điện tim chưa được cấp Chứng thư số (CTS).
+- 🐛: Khắc phục lỗi khi `cks.ketquacls = 2`, xem kết quả X-Quang không hiện thông báo hỏi thiết kế lại trang in; Khắc phục lỗi in/xem kết quả Điện tim không ký số và không có thông báo lỗi.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1100
+- 📗: CSDL `pkpn_16`, bảng `current.system`, `current.dmcts`, `current.pskhamha`, `current.xtrareports`.
+- 📕: Bác sĩ và Quản trị viên sử dụng phân hệ Chẩn đoán hình ảnh: Quản trị viên được vào thiết kế mẫu in để chỉnh kích thước cụm chữ ký; Bác sĩ được thông báo minh bạch khi chưa có chứng thư số để liên hệ quản trị cấu hình.
+
 ## [v.3.26.1120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FDiagnoseexe%2F32611200-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Nâng kích thước chữ ký số tối ưu (Width tối thiểu 250 pt, Height 65-75 pt) và kiểm soát chính xác luồng ký số thủ công theo tham số cks.ketquacls = 1
 - 🐛: Khắc phục lỗi khi cks.ketquacls = 1 trả kết quả X-Quang (hoặc CLS khác) click Lưu vẫn thực hiện ký số; tối ưu kích thước cụm con dấu to rõ, đậm nét theo thiết kế và chống đè chữ (LOI #1100)
